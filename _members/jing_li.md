@@ -1,6 +1,6 @@
 ---
 name: Li Jing
-image: images/li_jing.jpg
+image: images/jing_li.jpg
 role: member
 aliases:
   - 李靖老师
