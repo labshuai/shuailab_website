@@ -1,5 +1,5 @@
 ---
-name: Li Jing
+name: Jing Li
 image: images/jing_li.jpg
 role: member
 aliases:
