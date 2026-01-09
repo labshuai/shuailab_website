@@ -28,7 +28,7 @@ jobs:
         bundle exec jekyll build
 
     - name: Upload static site files
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: site-files
         path: _site
