@@ -3,7 +3,7 @@
 
 # labshuai's Website
 
-An engaging 1-3 sentence description of your lab.
+Academic Leader Dr. Wang Shuai, brings together key members including Li Jing, Bai Jie, Qu Weikun, and Qu Hui. The research focuses on systematically elucidating the molecular and cellular mechanisms underlying disease pathogenesis and progression.
 
 {% include section.html %}
 
