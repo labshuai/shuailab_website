@@ -2,6 +2,7 @@
 name: Xi Wan
 image: images/team/xi_wan.jpg
 role: member
+rank: 1
 aliases:
   - X. Wan
 ---
