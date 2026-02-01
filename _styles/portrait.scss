@@ -1,7 +1,4 @@
----
----
-
-.portrait-wrapper {
+--- --- .portrait-wrapper {
   display: contents;
 }
 
@@ -56,7 +53,7 @@
   width: 100%;
   margin-bottom: 20px;
   aspect-ratio: 1 / 1;
-  border-radius: 999px;
+  border-radius: 8;
   object-fit: cover;
   box-shadow: var(--shadow);
 }
@@ -72,6 +69,7 @@
 }
 
 .portrait[data-style="tiny"] {
+
   .portrait-description,
   .portrait-affiliation {
     display: none;
