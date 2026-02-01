@@ -7,12 +7,12 @@
 
 {% assign years = data
 | group_by_exp: "d", "d.date | date: '%Y'"
-| sort: "rank"
+| sort: "name"
 | reverse
 %}
 
 {% for year in years %}
-{% assign data = year.items %}
+{% assign data = year.items | sort: "rank" %}
 
 {% if years.size > 1 %}
 {{--}}<h3 id="{{ year.name }}">{{ year.name }}</h3>
