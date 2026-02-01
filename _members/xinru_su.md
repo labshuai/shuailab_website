@@ -2,6 +2,7 @@
 name: Xinru Su
 image: images/team/xinru_su.jpg
 role: member
+rank: 2
 aliases:
   - X. Su
 links:

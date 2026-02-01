@@ -2,6 +2,7 @@
 name: Ruofei Li
 image: images/team/ruofei_li.jpg
 role: member
+rank: 2
 aliases:
   - R. Li
 links:

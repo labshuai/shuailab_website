@@ -2,6 +2,7 @@
 name: Xiangyi Wang
 image: images/team/xiangyi_wang.jpg
 role: member
+rank: 2
 aliases:
   - X. Wang
 links:

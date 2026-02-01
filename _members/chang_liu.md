@@ -2,6 +2,7 @@
 name: Chang Liu
 image: images/team/chang_liu.jpg
 role: member
+rank: 2
 aliases:
   - C. Liu
 links:

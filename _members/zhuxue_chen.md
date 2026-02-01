@@ -2,6 +2,7 @@
 name: Zhuxue Chen
 image: images/team/zhuxue_chen.jpg
 role: member
+rank: 2
 aliases:
   - Z. Chen
 links:

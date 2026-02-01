@@ -2,6 +2,7 @@
 name: Zechuan Li
 image: images/team/zechuan_li.jpg
 role: member
+rank: 2
 aliases:
   - Z. Li
 links:

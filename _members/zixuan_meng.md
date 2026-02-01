@@ -2,6 +2,7 @@
 name: Zixuan Meng
 image: images/team/zixuan_meng.jpg
 role: member
+rank: 2
 aliases:
   - Z. Meng
 links:

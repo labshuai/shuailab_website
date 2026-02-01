@@ -2,6 +2,7 @@
 name: Yuchen Sun
 image: images/team/yuchen_sun.jpg
 role: member
+rank: 2
 aliases:
   - Y. Sun
 links:

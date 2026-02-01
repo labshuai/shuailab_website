@@ -2,6 +2,7 @@
 name: Xiaofeng Xu
 image: images/team/xiaofeng_xu.jpg
 role: member
+rank: 2
 aliases:
   - X. Xu
 links:
