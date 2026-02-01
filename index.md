@@ -13,7 +13,7 @@ Our laboratory, located in Dalian, China, investigates the mechanisms underlying
 
 {% capture text %}
 
-**Retinal vascular disease and gene therapy:**
+**Retinal vascular disease and gene therapy**
 
 We study the mechanisms by which inflammation and oxidative stress disrupt retinal and choroidal microvascular integrity in age-related and injury-induced retinal diseases. Using in vivo disease models and AAV-based gene therapy approaches, our work aims to identify protective pathways and secreted factors that stabilize the neurovascular unit and preserve retinal function
 
@@ -38,7 +38,7 @@ We study the mechanisms by which inflammation and oxidative stress disrupt retin
 
 {% capture text %}
 
-**Dry eye disease: mechanisms and biomaterial-based translational strategies:**
+**Dry eye disease: mechanisms and biomaterial-based translational strategies**
 
 We investigate the pathophysiology of dry eye disease, with an emphasis on ocular surface inflammation, epithelial stress responses, and tissue homeostasis. In parallel, we develop and translate biomaterial-based therapeutic platforms designed to improve ocular surface protection and long-term treatment efficacy.
 
@@ -55,7 +55,7 @@ We investigate the pathophysiology of dry eye disease, with an emphasis on ocula
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/dry_eye.jpg"
   link="projects"
   title="Our Projects"
   flip=true
