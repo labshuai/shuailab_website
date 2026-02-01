@@ -7,8 +7,8 @@
 
 {% assign years = data
 | group_by_exp: "d", "d.date | date: '%Y'"
-| sort: "rank"
 | sort: "name"
+| sort: "rank"
 | reverse
 %}
 
