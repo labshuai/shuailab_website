@@ -2,6 +2,7 @@
 name: Jing Li
 image: images/team/jing_li.jpg
 role: member
+rank: 4
 aliases:
   - J. Li
 links:

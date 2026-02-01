@@ -2,6 +2,7 @@
 name: Shuai Wang
 image: images/team/shuai_wang.jpg
 role: principal-investigator
+rank: 1
 aliases:
   - S. Wang
 links:

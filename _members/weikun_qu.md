@@ -2,6 +2,7 @@
 name: Weikun Qu
 image: images/team/weikun_qu.jpg
 role: member
+rank: 2
 aliases:
   - W. Qu
 links:

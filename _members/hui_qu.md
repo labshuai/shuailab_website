@@ -2,6 +2,7 @@
 name: Hui Qu
 image: images/team/hui_qu.jpg
 role: member
+rank: 3
 aliases:
   - H. Qu
 links:
