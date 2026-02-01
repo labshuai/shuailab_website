@@ -1,4 +1,4 @@
---- --- .portrait-wrapper {
+.portrait-wrapper {
   display: contents;
 }
 
@@ -14,11 +14,11 @@
   text-decoration: none;
 }
 
-.portrait[data-style="small"] {
+.portrait[data-style=small] {
   width: 100px;
 }
 
-.portrait[data-style="tiny"] {
+.portrait[data-style=tiny] {
   flex-direction: row;
   gap: 15px;
   width: unset;
@@ -33,32 +33,32 @@
   justify-content: center;
   align-items: center;
   width: calc(20px + 10%);
-  aspect-ratio: 1 / 1;
+  aspect-ratio: 1/1;
   border-radius: 999px;
   background: var(--background);
   box-shadow: var(--shadow);
   transform: translate(14%, 14%);
 }
 
-.portrait[data-style="small"] .icon {
+.portrait[data-style=small] .icon {
   left: -2px;
   top: -2px;
 }
 
-.portrait[data-style="tiny"] .icon {
+.portrait[data-style=tiny] .icon {
   display: none;
 }
 
 .portrait-image {
   width: 100%;
   margin-bottom: 20px;
-  aspect-ratio: 1 / 1;
+  aspect-ratio: 1/1;
   border-radius: 999px;
   object-fit: cover;
   box-shadow: var(--shadow);
 }
 
-.portrait[data-style="tiny"] .portrait-image {
+.portrait[data-style=tiny] .portrait-image {
   width: 50px;
   margin: 0;
 }
@@ -68,10 +68,9 @@
   font-weight: var(--semi-bold);
 }
 
-.portrait[data-style="tiny"] {
-
-  .portrait-description,
-  .portrait-affiliation {
-    display: none;
-  }
+.portrait[data-style=tiny] .portrait-description,
+.portrait[data-style=tiny] .portrait-affiliation {
+  display: none;
 }
+
+/*# sourceMappingURL=portrait.css.map */
