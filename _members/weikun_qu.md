@@ -1,7 +1,7 @@
 ---
 name: Weikun Qu
 image: images/team/weikun_qu.jpg
-role: principal-investigatorr
+role: principal-investigator
 rank: 2
 aliases:
   - W. Qu
