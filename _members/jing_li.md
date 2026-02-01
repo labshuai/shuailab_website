@@ -1,7 +1,7 @@
 ---
 name: Jing Li
 image: images/team/jing_li.jpg
-role: member
+role: principal-investigatorr
 rank: 4
 aliases:
   - J. Li

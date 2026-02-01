@@ -1,7 +1,7 @@
 ---
 name: Hui Qu
 image: images/team/hui_qu.jpg
-role: member
+role: principal-investigator
 rank: 3
 aliases:
   - H. Qu

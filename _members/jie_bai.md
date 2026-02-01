@@ -1,7 +1,7 @@
 ---
 name: Jie Bai
 image: images/team/jie_bai.jpg
-role: member
+role: principal-investigator
 rank: 5
 aliases:
   - J. Bai
