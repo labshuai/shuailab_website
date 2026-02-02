@@ -58,5 +58,241 @@
   date: '2024-02-15'
   link: https://doi.org/hbncmp
   orcid: 0000-0002-9142-6095
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  image: https://media.springernature.com/full/springer-static/image/art%3A10.1186%2Fs12967-024-04877-6/MediaObjects/12967_2024_4877_Fig1_HTML.png
+- id: doi:10.1016/j.redox.2018.02.022
+  title: The immunoproteasome subunit LMP10 mediates angiotensin II-induced retinopathy
+    in mice
+  authors:
+  - Shuai Wang
+  - Jing Li
+  - Jie Bai
+  - Jing-Min Li
+  - Yi-Lin Che
+  - Qiu-Yue Lin
+  - Yun-Long Zhang
+  - Hui-Hua Li
+  publisher: Redox Biology
+  date: '2018-06-01'
+  link: https://doi.org/hbndbp
+  image: https://pmc.ncbi.nlm.nih.gov/articles/PMC5945319/bin/main.f1.jpg
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1016/j.ymthe.2019.09.025
+  title: "Ablation of Immunoproteasome \u03B25i Subunit Suppresses Hypertensive Retinopathy\
+    \ by Blocking ATRAP Degradation in Mice"
+  authors:
+  - Shuai Wang
+  - Jing Li
+  - Tong Wang
+  - Jie Bai
+  - Yun-Long Zhang
+  - Qiu-Yue Lin
+  - Jing-min Li
+  - Qi Zhao
+  - Shu-Bin Guo
+  - Hui-Hua Li
+  publisher: Molecular Therapy
+  date: '2020-01-01'
+  link: https://doi.org/hbndbq
+  image: https://pmc.ncbi.nlm.nih.gov/articles/PMC6930985/bin/f1.jpg
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1016/j.redox.2022.102438
+  title: CXCL1-CXCR2 signalling mediates hypertensive retinopathy by inducing macrophage
+    infiltration
+  authors:
+  - Shuai Wang
+  - Jie Bai
+  - Yun-Long Zhang
+  - Qiu-Yue Lin
+  - Xiao Han
+  - Wei-Kun Qu
+  - Peng-Fei Zhang
+  - Yu-Song Ge
+  - Qi Zhao
+  - Hui-Hua Li
+  publisher: Redox Biology
+  date: '2022-10-01'
+  link: https://doi.org/gr28qs
+  image: https://pmc.ncbi.nlm.nih.gov/articles/PMC9418605/bin/main.f1.jpg
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.3389/fphar.2023.1164333
+  title: Fucoidan inhibits apoptosis and improves cardiac remodeling by inhibiting
+    p53 transcriptional activation through USP22/Sirt 1
+  authors:
+  - Shuai Wang
+  - Jie Bai
+  - Yilin Che
+  - Weikun Qu
+  - Jing Li
+  publisher: Frontiers in Pharmacology
+  date: '2023-05-30'
+  link: https://doi.org/hbndbr
+  image: https://www.frontiersin.org/files/Articles/1164333/fphar-14-1164333-HTML/image_m/fphar-14-1164333-g001.jpg
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1016/j.lfs.2020.118795
+  title: Intravitreal conbercept improves outcome of proliferative diabetic retinopathy
+    through inhibiting inflammation and oxidative stress
+  authors:
+  - Jian-Ping Xia
+  - Sheng-Qiang Liu
+  - Shuai Wang
+  publisher: Life Sciences
+  date: '2021-01-01'
+  link: https://doi.org/gk8ss5
+  image: https://ars.els-cdn.com/content/image/1-s2.0-S0024320520315484-gr1_lrg.jpg
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1167/iovs.61.14.30
+  title: "Immunosubunit \u03B25i Knockout Suppresses Neovascularization and Restores\
+    \ Autophagy in Retinal Neovascularization by Targeting ATG5 for Degradation"
+  authors:
+  - Liyang Ji
+  - Li Li
+  - Ying Zhao
+  - Shengqiang Liu
+  - Jingmin Li
+  - Jinsong Zhang
+  - Qi Zhao
+  - Shuai Wang
+  publisher: Investigative Opthalmology &amp; Visual Science
+  date: '2020-12-28'
+  link: https://doi.org/hbndbs
+  image: https://cdn.ncbi.nlm.nih.gov/pmc/blobs/6952/7774061/5af973eb5019/iovs-61-14-30-f001.jpg
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1016/j.ajo.2024.04.021
+  title: 'Incidence Rate of Secondary Glaucoma Following Congenital Cataract Surgery:
+    An In-Depth Systematic Review and Meta-Analysis'
+  authors:
+  - Li Li
+  - Xi Wang
+  - Changyang Liu
+  - Shuai Wang
+  - Xiaochen Wang
+  publisher: American Journal of Ophthalmology
+  date: '2024-09-01'
+  link: https://doi.org/hbndbt
+  image: https://ars.els-cdn.com/content/image/1-s2.0-S0002939424001739-gr1_lrg.jpg
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.3390/polym15010023
+  title: 'Highly Biocompatible Apigenin-Loaded Silk Fibroin Nanospheres: Preparation,
+    Characterization, and Anti-Breast-Cancer Activity'
+  authors:
+  - Weikun Qu
+  - Peng Ji
+  - Xibin Han
+  - Xianglong Wang
+  - Yang Li
+  - Jin Liu
+  publisher: Polymers
+  date: '2022-12-21'
+  link: https://doi.org/hbndbv
+  image: https://www.mdpi.com/polymers/polymers-15-00023/article_deploy/html/images/polymers-15-00023-g001.png
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1186/s12935-021-01833-y
+  title: Systematic analysis of the expression and prognosis relevance of FBXO family
+    reveals the significance of FBXO1 in human breast cancer
+  authors:
+  - Yaqian Liu
+  - Bo Pan
+  - Weikun Qu
+  - Yilong Cao
+  - Jun Li
+  - Haidong Zhao
+  publisher: Cancer Cell International
+  date: '2021-02-23'
+  link: https://doi.org/grx36b
+  image: https://media.springernature.com/lw685/springer-static/image/art%3A10.1186%2Fs12935-021-01833-y/MediaObjects/12935_2021_1833_Fig1_HTML.png
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1016/j.jare.2023.02.010
+  title: CD11b mediates hypertensive cardiac remodeling by regulating macrophage infiltration
+    and polarization
+  authors:
+  - Yun-Long Zhang
+  - Jie Bai
+  - Wei-Jia Yu
+  - Qiu-Yue Lin
+  - Hui-Hua Li
+  publisher: Journal of Advanced Research
+  date: '2024-01-01'
+  link: https://doi.org/gtwzwv
+  image: https://ars.els-cdn.com/content/image/1-s2.0-S2090123223000619-gr1_lrg.jpg
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1016/j.biopha.2018.10.134
+  title: Taurine rescues the arsenic-induced injury in the pancreas of rat offsprings
+    and in the INS-1 cells
+  authors:
+  - Qiaoting Zhang
+  - Jie Bai
+  - Xiaofeng Yao
+  - Liping Jiang
+  - Wei Wu
+  - Lei Yang
+  - Ni Gao
+  - Tianming Qiu
+  - Guang Yang
+  - Tesfaldet Habtemariam Hidru
+  - Xiance Sun
+  publisher: Biomedicine &amp; Pharmacotherapy
+  date: '2019-01-01'
+  link: https://doi.org/gtqb55
+  image: https://ars.els-cdn.com/content/image/1-s2.0-S0753332218345256-gr1_lrg.jpg
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1161/HYPERTENSIONAHA.118.11813
+  title: "Immunoproteasome Subunit \u03B25i Promotes Ang II (Angiotensin II)\u2013\
+    Induced Atrial Fibrillation by Targeting ATRAP (Ang II Type I Receptor\u2013Associated\
+    \ Protein) Degradation in Mice"
+  authors:
+  - Jing Li
+  - Shuai Wang
+  - Yun-Long Zhang
+  - Jie Bai
+  - Qiu-Yue Lin
+  - Rui-Sheng Liu
+  - Xiao-Hong Yu
+  - Hui-Hua Li
+  publisher: Hypertension
+  date: '2019-01-01'
+  link: https://doi.org/hbndbw
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1161/HYPERTENSIONAHA.117.10390
+  title: "Novel Role for the Immunoproteasome Subunit PSMB10 in Angiotensin II\u2013\
+    Induced Atrial Fibrillation in Mice"
+  authors:
+  - Jing Li
+  - Shuai Wang
+  - Jie Bai
+  - Xiao-Lei Yang
+  - Yun-Long Zhang
+  - Yi-Lin Che
+  - Hui-Hua Li
+  - Yan-Zong Yang
+  publisher: Hypertension
+  date: '2018-05-01'
+  link: https://doi.org/gddzrs
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1161/HYPERTENSIONAHA.122.20328
+  title: Integrin CD11b Contributes to Hypertension and Vascular Dysfunction Through
+    Mediating Macrophage Adhesion and Migration
+  authors:
+  - Qiu-Yue Lin
+  - Jie Bai
+  - Yun-Long Zhang
+  - Hui-Hua Li
+  publisher: Hypertension
+  date: '2023-01-01'
+  link: https://doi.org/hbndbx
+  plugin: sources.py
+  file: sources.yaml
