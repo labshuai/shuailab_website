@@ -14,14 +14,8 @@ nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 {%
   include button.html
   type="email"
-  text="jane@smith.com"
-  link="jane@smith.com"
-%}
-{%
-  include button.html
-  type="phone"
-  text="(555) 867-5309"
-  link="+1-555-867-5309"
+  text="wang.s@dmu.edu.cn"
+  link="wang.s@dmu.edu.cn"
 %}
 {%
   include button.html
@@ -36,8 +30,8 @@ nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
 {%
   include figure.html
-  image="images/photo.jpg"
-  caption="Lorem ipsum"
+  image="images/dalian.jpg"
+  caption="Dalian Medical University"
 %}
 
 {% endcapture %}
@@ -46,8 +40,8 @@ nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
 {%
   include figure.html
-  image="images/photo.jpg"
-  caption="Lorem ipsum"
+  image="images/yikedaxue.jpg"
+  caption="Dalian Medical University"
 %}
 
 {% endcapture %}
