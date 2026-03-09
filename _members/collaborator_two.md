@@ -1,7 +1,7 @@
 ---
 name: Dr. Collaborator Two
-image: images/team/collaborator_placeholder.svg
-role: Researcher
+image: images/team/tong_wang.jpg
+role: collaborator
 aliases:
   - collaborator two
 links:
