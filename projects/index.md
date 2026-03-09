@@ -7,8 +7,7 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-wrench" %}Projects
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+We investigate the pathophysiology of dry eye disease, with an emphasis on ocular surface inflammation, epithelial stress responses, and tissue homeostasis. In parallel, we develop and translate biomaterial-based therapeutic platforms designed to improve ocular surface protection and long-term treatment efficacy.
 
 {% include tags.html tags="publication, resource, website" %}
 
