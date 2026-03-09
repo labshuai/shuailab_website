@@ -15,12 +15,13 @@ We possess a dynamic and well-structured talent pool, where team members combine
 
 {% include section.html %}
 
-{% include list.html data="members" component="portrait" filter="role != 'principal-investigator' and role != 'collaborator' and name != 'Shuai Wang'" %}
+{% include list.html data="members" component="portrait" filter="role = 'principal-investigator' 
+and name != 'Shuai Wang'" %}
 
 
 {% include section.html %}
 
-{% include list.html data="members" component="portrait" filter="role != 'principal-investigator'" %}
+{% include list.html data="members" component="portrait" filter="role != 'principal-investigator' and role != 'collaborator'" %}
 
 {% include section.html background="images/background.jpg" dark=true %}
 
