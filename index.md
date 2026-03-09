@@ -63,7 +63,7 @@ We investigate the pathophysiology of dry eye disease, with an emphasis on ocula
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+We possess a dynamic and well-structured talent pool, where team members combine profound clinical expertise with rigorous scientific training, actively engaging in graduate education and teaching reform.
 
 {%
   include button.html
