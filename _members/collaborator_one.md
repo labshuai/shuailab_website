@@ -1,7 +1,7 @@
 ---
 name: Dr. Collaborator One
-image: images/team/tong_wang.jpg
-role: Professor
+image: images/team/shijie_xu.jpg
+role: collaborator
 aliases:
   - collaborator one
 links:
