@@ -1,6 +1,6 @@
 ---
-name: Dr. Collaborator One
-image: images/team/shijie_xu.jpg
+name: Dr. Zhang
+image: images/team/pengfei_zhang.jpg
 role: collaborator
 aliases:
   - collaborator one
