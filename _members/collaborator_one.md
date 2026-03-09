@@ -1,6 +1,6 @@
 ---
 name: Dr. Collaborator One
-image: images/team/collaborator_placeholder.svg
+image: images/team/tong_wang.jpg
 role: Professor
 aliases:
   - collaborator one
