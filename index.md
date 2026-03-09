@@ -3,8 +3,6 @@
 
 # Shuai Wang Tri lab's Website
 
-Academic Leader Dr. Wang Shuai, brings together key members including Jing Li, Jie Bai, Hui Qu, and Weikun Qu. The research focuses on systematically elucidating the molecular and cellular mechanisms underlying disease pathogenesis and progression.
-
 Our laboratory, located in Dalian, China, investigates the mechanisms underlying retinal vascular dysfunction and ocular surface disease, with a focus on inflammation, oxidative stress, and translational therapeutic strategies. We aim to understand how cellular stress responses and intercellular signaling drive tissue degeneration and barrier breakdown, and how these processes can be therapeutically targeted. We welcome academic and clinical collaborations.
 
 {% include section.html %}
