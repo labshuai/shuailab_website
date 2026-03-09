@@ -13,7 +13,7 @@ You can find a selection and all our publications below.
 
 ## Highlighted
 
-{% include citation.html lookup="Open collaborative writing with Manubot" style="rich" %}
+{% include citation.html lookup="AAV NRF2 Gene Therapy Preserves Retinal Structure and Function in Rodent Models of Oxidative Damage" style="rich" %}
 
 {% include section.html %}
 
