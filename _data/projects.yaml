@@ -3,18 +3,16 @@
   group: featured
   image: images/photo.jpg
   link: https://github.com/
-  description: The Role and Molecular Mechanism of Bone Marrow-derived CXCR2-positive Monocytes in Hypertensive Retinal Vascular Injury
-    - resource
+  description: The Role and Molecular Mechanism of Bone Marrow-derived CXCR2-positive Monocytes in Hypertensive Retinal Vascular Injury.
+    
 
-- title: Cool Package
-  subtitle: a subtitle
+- title:  Liaoning Provincial Natural Science Foundation
+  subtitle: 
   group: featured
   image: images/photo.jpg
   link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
-  tags:
-    - resource
+  description: Molecular Mechanism of Immunoproteasome Subunit β5i Promoting Angiotensin II-Induced Retinal Vascular Injury.
+ 
 
 - title: Cool Tutorial
   subtitle: a subtitle
