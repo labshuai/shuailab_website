@@ -83,7 +83,7 @@
   orcid: 0000-0002-9142-6095
   plugin: sources.py
   file: sources.yaml
-  image: images/publications/2024-fucoidan-retinopathy.png
+  image: images/publications/2024-fucoidan-retinopathy.jpg
 - id: doi:10.1016/j.redox.2018.02.022
   title: The immunoproteasome subunit LMP10 mediates angiotensin II-induced retinopathy
     in mice
@@ -156,7 +156,7 @@
   publisher: Experimental Eye Research
   date: '2023-02-01'
   link: https://doi.org/hcdg3c
-  image: images/publications/2023-amino-acid-carnitine-glaucoma.svg
+  image: images/publications/2023-amino-acid-carnitine-glaucoma.jpg
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1111/aos.14874
@@ -178,7 +178,7 @@
   publisher: Acta Ophthalmologica
   date: '2022-02-01'
   link: https://doi.org/gp2kmf
-  image: images/publications/2022-free-fatty-acid-glaucoma.svg
+  image: images/publications/2022-free-fatty-acid-glaucoma.png
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.3389/fphar.2023.1164333
@@ -237,7 +237,7 @@
   publisher: Biochemical and Biophysical Research Communications
   date: '2019-01-22'
   link: https://doi.org/gh4jcb
-  image: images/publications/2019-conbercept-retinal-vein-occlusion.svg
+  image: images/publications/2019-conbercept-retinal-vein-occlusion.jpg
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.3892/mmr.2018.9759
@@ -251,7 +251,7 @@
   publisher: Molecular Medicine Reports
   date: '2019-02-01'
   link: https://doi.org/hcdg3d
-  image: images/publications/2019-oir-autophagy-pyroptosis.svg
+  image: images/publications/2019-oir-autophagy-pyroptosis.jpg
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1016/j.ajo.2024.04.021
@@ -285,7 +285,7 @@
   publisher: Hypertension
   date: '2019-01-01'
   link: https://doi.org/hbndbw
-  image: images/publications/2019-beta5i-atrial-fibrillation.svg
+  image: images/publications/2019-beta5i-atrial-fibrillation.jpg
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1161/HYPERTENSIONAHA.117.10390
@@ -303,6 +303,6 @@
   publisher: Hypertension
   date: '2018-05-01'
   link: https://doi.org/gddzrs
-  image: images/publications/2018-psmb10-atrial-fibrillation.svg
+  image: images/publications/2018-psmb10-atrial-fibrillation.jpg
   plugin: sources.py
   file: sources.yaml
