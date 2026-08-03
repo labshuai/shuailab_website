@@ -31,23 +31,8 @@
 - id: doi:10.1016/j.ajo.2024.04.021
   image: images/publications/2024-secondary-glaucoma-meta-analysis.jpg
 
-- id: doi:10.3390/polym15010023
-  image: images/publications/2022-apigenin-silk-fibroin.jpg
-
-- id: doi:10.1186/s12935-021-01833-y
-  image: images/publications/2021-fbxo-breast-cancer.png
-
-- id: doi:10.1016/j.jare.2023.02.010
-  image: images/publications/2024-cd11b-cardiac-remodeling.jpg
-
-- id: doi:10.1016/j.biopha.2018.10.134
-  image: images/publications/2019-taurine-pancreas.jpg
-
 - id: doi:10.1161/HYPERTENSIONAHA.118.11813
   image: images/publications/2019-beta5i-atrial-fibrillation.svg
 
 - id: doi:10.1161/HYPERTENSIONAHA.117.10390
   image: images/publications/2018-psmb10-atrial-fibrillation.svg
-
-- id: doi:10.1161/HYPERTENSIONAHA.122.20328
-  image: images/publications/2023-cd11b-hypertension.svg

@@ -203,74 +203,6 @@
   image: images/publications/2024-secondary-glaucoma-meta-analysis.jpg
   plugin: sources.py
   file: sources.yaml
-- id: doi:10.3390/polym15010023
-  title: 'Highly Biocompatible Apigenin-Loaded Silk Fibroin Nanospheres: Preparation,
-    Characterization, and Anti-Breast-Cancer Activity'
-  authors:
-  - Weikun Qu
-  - Peng Ji
-  - Xibin Han
-  - Xianglong Wang
-  - Yang Li
-  - Jin Liu
-  publisher: Polymers
-  date: '2022-12-21'
-  link: https://doi.org/hbndbv
-  image: images/publications/2022-apigenin-silk-fibroin.jpg
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.1186/s12935-021-01833-y
-  title: Systematic analysis of the expression and prognosis relevance of FBXO family
-    reveals the significance of FBXO1 in human breast cancer
-  authors:
-  - Yaqian Liu
-  - Bo Pan
-  - Weikun Qu
-  - Yilong Cao
-  - Jun Li
-  - Haidong Zhao
-  publisher: Cancer Cell International
-  date: '2021-02-23'
-  link: https://doi.org/grx36b
-  image: images/publications/2021-fbxo-breast-cancer.png
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.1016/j.jare.2023.02.010
-  title: CD11b mediates hypertensive cardiac remodeling by regulating macrophage infiltration
-    and polarization
-  authors:
-  - Yun-Long Zhang
-  - Jie Bai
-  - Wei-Jia Yu
-  - Qiu-Yue Lin
-  - Hui-Hua Li
-  publisher: Journal of Advanced Research
-  date: '2024-01-01'
-  link: https://doi.org/gtwzwv
-  image: images/publications/2024-cd11b-cardiac-remodeling.jpg
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.1016/j.biopha.2018.10.134
-  title: Taurine rescues the arsenic-induced injury in the pancreas of rat offsprings
-    and in the INS-1 cells
-  authors:
-  - Qiaoting Zhang
-  - Jie Bai
-  - Xiaofeng Yao
-  - Liping Jiang
-  - Wei Wu
-  - Lei Yang
-  - Ni Gao
-  - Tianming Qiu
-  - Guang Yang
-  - Tesfaldet Habtemariam Hidru
-  - Xiance Sun
-  publisher: Biomedicine &amp; Pharmacotherapy
-  date: '2019-01-01'
-  link: https://doi.org/gtqb55
-  image: images/publications/2019-taurine-pancreas.jpg
-  plugin: sources.py
-  file: sources.yaml
 - id: doi:10.1161/HYPERTENSIONAHA.118.11813
   title: "Immunoproteasome Subunit \u03B25i Promotes Ang II (Angiotensin II)\u2013\
     Induced Atrial Fibrillation by Targeting ATRAP (Ang II Type I Receptor\u2013Associated\
@@ -306,19 +238,5 @@
   date: '2018-05-01'
   link: https://doi.org/gddzrs
   image: images/publications/2018-psmb10-atrial-fibrillation.svg
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.1161/HYPERTENSIONAHA.122.20328
-  title: Integrin CD11b Contributes to Hypertension and Vascular Dysfunction Through
-    Mediating Macrophage Adhesion and Migration
-  authors:
-  - Qiu-Yue Lin
-  - Jie Bai
-  - Yun-Long Zhang
-  - Hui-Hua Li
-  publisher: Hypertension
-  date: '2023-01-01'
-  link: https://doi.org/hbndbx
-  image: images/publications/2023-cd11b-hypertension.svg
   plugin: sources.py
   file: sources.yaml
