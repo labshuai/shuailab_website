@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">CD11b in hypertension and vascular dysfunction</title>
+  <desc id="desc">A publication thumbnail illustrating immune-cell adhesion to a blood vessel.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#173b73"/>
+      <stop offset="1" stop-color="#6a2c91"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" rx="42" fill="url(#bg)"/>
+  <path d="M670 236c147-82 353-68 458 28v275c-121 79-329 91-458 20z" fill="#ef6b7b" fill-opacity="0.35" stroke="#ffb1bd" stroke-width="12"/>
+  <path d="M694 362c134-53 302-47 411 21M690 446c138 48 308 44 417-16" fill="none" stroke="#ffd4da" stroke-width="10" opacity="0.8"/>
+  <g fill="#9ee9ff" stroke="#ffffff" stroke-width="8">
+    <circle cx="744" cy="257" r="62"/>
+    <circle cx="875" cy="218" r="47"/>
+    <circle cx="1010" cy="265" r="55"/>
+  </g>
+  <path d="M744 313v47M875 265v58M1010 320v43" stroke="#9ee9ff" stroke-width="18" stroke-linecap="round"/>
+  <text x="82" y="164" fill="#cfeaff" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="700">HYPERTENSION · 2023</text>
+  <text x="82" y="302" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="84" font-weight="700">CD11b / CD18</text>
+  <text x="82" y="394" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="48">Immune-Cell Adhesion</text>
+  <text x="82" y="456" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="48">&amp; Vascular Dysfunction</text>
+  <rect x="82" y="548" width="468" height="8" rx="4" fill="#9ee9ff"/>
+</svg>

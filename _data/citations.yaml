@@ -18,8 +18,9 @@
   date: '2026-05-15'
   link: https://doi.org/hb4n32
   orcid: 0000-0002-9142-6095
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  image: images/publications/2026-aav-nrf2-gdf15.jpg
 - id: doi:10.1101/2025.07.09.663952
   title: AAV NRF2 Gene Therapy Preserves Retinal Structure and Function in Rodent
     Models of Oxidative Damage
@@ -42,8 +43,9 @@
   date: '2025-07-14'
   link: https://doi.org/hbncmm
   orcid: 0000-0002-9142-6095
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  image: images/publications/2025-aav-nrf2-gene-therapy.jpg
 - id: doi:10.1109/TIM.2025.3606015
   title: Development of a High-Speed Swept-Source OCT/OCTA/ORG System for Structural
     and Functional Imaging of the Living Mouse Retina
@@ -62,8 +64,9 @@
   date: '2025-01-01'
   link: https://doi.org/hbncmn
   orcid: 0000-0002-9142-6095
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  image: images/publications/2025-oct-octa-org.svg
 - id: doi:10.1186/s12967-024-04877-6
   title: 'Fucoidan modulates SIRT1 and NLRP3 to alleviate hypertensive retinopathy:
     in vivo and in vitro insights'
@@ -80,7 +83,7 @@
   orcid: 0000-0002-9142-6095
   plugin: sources.py
   file: sources.yaml
-  image: https://media.springernature.com/full/springer-static/image/art%3A10.1186%2Fs12967-024-04877-6/MediaObjects/12967_2024_4877_Fig1_HTML.png
+  image: images/publications/2024-fucoidan-retinopathy.png
 - id: doi:10.1016/j.redox.2018.02.022
   title: The immunoproteasome subunit LMP10 mediates angiotensin II-induced retinopathy
     in mice
@@ -96,6 +99,7 @@
   publisher: Redox Biology
   date: '2018-06-01'
   link: https://doi.org/hbndbp
+  image: images/publications/2018-lmp10-retinopathy.jpg
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1016/j.ymthe.2019.09.025
@@ -115,7 +119,7 @@
   publisher: Molecular Therapy
   date: '2020-01-01'
   link: https://doi.org/hbndbq
-  image: https://pmc.ncbi.nlm.nih.gov/articles/PMC6930985/bin/f1.jpg
+  image: images/publications/2020-beta5i-hypertensive-retinopathy.jpg
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1016/j.redox.2022.102438
@@ -135,7 +139,7 @@
   publisher: Redox Biology
   date: '2022-10-01'
   link: https://doi.org/gr28qs
-  image: https://pmc.ncbi.nlm.nih.gov/articles/PMC9418605/bin/main.f1.jpg
+  image: images/publications/2022-cxcl1-cxcr2-retinopathy.jpg
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.3389/fphar.2023.1164333
@@ -150,7 +154,7 @@
   publisher: Frontiers in Pharmacology
   date: '2023-05-30'
   link: https://doi.org/hbndbr
-  image: https://www.frontiersin.org/files/Articles/1164333/fphar-14-1164333-HTML/image_m/fphar-14-1164333-g001.jpg
+  image: images/publications/2023-fucoidan-cardiac-remodeling.jpg
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1016/j.lfs.2020.118795
@@ -163,7 +167,7 @@
   publisher: Life Sciences
   date: '2021-01-01'
   link: https://doi.org/gk8ss5
-  image: https://ars.els-cdn.com/content/image/1-s2.0-S0024320520315484-gr1_lrg.jpg
+  image: images/publications/2021-conbercept-retinopathy.jpg
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1167/iovs.61.14.30
@@ -181,7 +185,7 @@
   publisher: Investigative Opthalmology &amp; Visual Science
   date: '2020-12-28'
   link: https://doi.org/hbndbs
-  image: https://cdn.ncbi.nlm.nih.gov/pmc/blobs/6952/7774061/5af973eb5019/iovs-61-14-30-f001.jpg
+  image: images/publications/2020-immunosubunit-beta5i-neovascularization.jpg
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1016/j.ajo.2024.04.021
@@ -196,7 +200,7 @@
   publisher: American Journal of Ophthalmology
   date: '2024-09-01'
   link: https://doi.org/hbndbt
-  image: https://ars.els-cdn.com/content/image/1-s2.0-S0002939424001739-gr1_lrg.jpg
+  image: images/publications/2024-secondary-glaucoma-meta-analysis.jpg
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.3390/polym15010023
@@ -212,7 +216,7 @@
   publisher: Polymers
   date: '2022-12-21'
   link: https://doi.org/hbndbv
-  image: https://www.mdpi.com/polymers/polymers-15-00023/article_deploy/html/images/polymers-15-00023-g001.png
+  image: images/publications/2022-apigenin-silk-fibroin.jpg
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1186/s12935-021-01833-y
@@ -228,7 +232,7 @@
   publisher: Cancer Cell International
   date: '2021-02-23'
   link: https://doi.org/grx36b
-  image: https://media.springernature.com/lw685/springer-static/image/art%3A10.1186%2Fs12935-021-01833-y/MediaObjects/12935_2021_1833_Fig1_HTML.png
+  image: images/publications/2021-fbxo-breast-cancer.png
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1016/j.jare.2023.02.010
@@ -243,7 +247,7 @@
   publisher: Journal of Advanced Research
   date: '2024-01-01'
   link: https://doi.org/gtwzwv
-  image: https://ars.els-cdn.com/content/image/1-s2.0-S2090123223000619-gr1_lrg.jpg
+  image: images/publications/2024-cd11b-cardiac-remodeling.jpg
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1016/j.biopha.2018.10.134
@@ -264,7 +268,7 @@
   publisher: Biomedicine &amp; Pharmacotherapy
   date: '2019-01-01'
   link: https://doi.org/gtqb55
-  image: https://ars.els-cdn.com/content/image/1-s2.0-S0753332218345256-gr1_lrg.jpg
+  image: images/publications/2019-taurine-pancreas.jpg
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1161/HYPERTENSIONAHA.118.11813
@@ -283,6 +287,7 @@
   publisher: Hypertension
   date: '2019-01-01'
   link: https://doi.org/hbndbw
+  image: images/publications/2019-beta5i-atrial-fibrillation.svg
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1161/HYPERTENSIONAHA.117.10390
@@ -300,6 +305,7 @@
   publisher: Hypertension
   date: '2018-05-01'
   link: https://doi.org/gddzrs
+  image: images/publications/2018-psmb10-atrial-fibrillation.svg
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1161/HYPERTENSIONAHA.122.20328
@@ -313,5 +319,6 @@
   publisher: Hypertension
   date: '2023-01-01'
   link: https://doi.org/hbndbx
+  image: images/publications/2023-cd11b-hypertension.svg
   plugin: sources.py
   file: sources.yaml
