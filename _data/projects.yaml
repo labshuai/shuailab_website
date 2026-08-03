@@ -35,13 +35,17 @@
 
 - title: National Natural Science Foundation of China
   subtitle: (Youth Project)
-  image: images/photo.jpg
+  image: images/funders/nsfc-logo.png
+  image_fit: contain
+  image_link: images/funders/nsfc-logo.png
   description: >-
     The Role and Molecular Mechanism of Bone Marrow-derived CXCR2-positive
     Monocytes in Hypertensive Retinal Vascular Injury.
 
 - title: Liaoning Provincial Natural Science Foundation
-  image: images/photo.jpg
+  image: images/funders/liaoning-science-technology-logo.png
+  image_fit: contain
+  image_link: images/funders/liaoning-science-technology-logo.png
   description: >-
     Molecular Mechanism of Immunoproteasome Subunit β5i Promoting Angiotensin
     II-Induced Retinal Vascular Injury.

@@ -44,6 +44,23 @@
   object-fit: contain;
 }
 
+.card[data-image-fit="contain"] .card-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  aspect-ratio: 3 / 2;
+  background: #fff;
+}
+
+.card[data-image-fit="contain"] .card-image img {
+  display: block;
+  width: calc(100% - 40px);
+  height: calc(100% - 40px);
+  aspect-ratio: auto;
+  object-fit: contain;
+}
+
 .card-text {
   display: inline-flex;
   justify-content: flex-start;
