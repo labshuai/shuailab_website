@@ -36,6 +36,32 @@
   flex-direction: row-reverse;
 }
 
+.feature[data-image-fit=panorama] {
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.feature[data-image-fit=panorama] .feature-image {
+  width: 100%;
+  max-width: 1062px;
+  aspect-ratio: auto;
+  margin-inline: auto;
+  background: #000;
+}
+
+.feature[data-image-fit=panorama] .feature-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.feature[data-image-fit=panorama] .feature-text {
+  width: 100%;
+  max-width: 1062px;
+  margin-inline: auto;
+}
+
 @media (max-width: 800px) {
   .feature {
     flex-direction: column !important;

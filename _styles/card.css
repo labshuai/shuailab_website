@@ -23,6 +23,23 @@
   width: 100%;
 }
 
+.card[data-image-fit=panorama] .card-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  aspect-ratio: 3/2;
+  background: #000;
+}
+
+.card[data-image-fit=panorama] .card-image img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  aspect-ratio: auto;
+  object-fit: contain;
+}
+
 .card-text {
   display: inline-flex;
   justify-content: flex-start;
