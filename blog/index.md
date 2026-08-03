@@ -2,10 +2,10 @@
 title: News
 nav:
   order: 5
-  tooltip: Musings and miscellany
+  tooltip: Latest news and research updates
 ---
 
-# {% include icon.html icon="fa-solid fa-feather-pointed" %}News
+# {% include icon.html icon="fa-solid fa-newspaper" %}News
 
 {% include section.html %}
 
