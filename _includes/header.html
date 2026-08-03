@@ -16,6 +16,35 @@
     data-big
   {% endif %}
 >
+  {% if page.url == "/" %}
+    <div class="institution-logos" aria-label="Affiliated institutions">
+      <a
+        class="institution-logo"
+        href="https://www.dmu.edu.cn/"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Dalian Medical University"
+      >
+        <img
+          src="{{ "images/institutions/dalian-medical-university.png" | relative_url | uri_escape }}"
+          alt="Dalian Medical University"
+        >
+      </a>
+      <a
+        class="institution-logo"
+        href="https://www.shdmu.com/web/homePage/index"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="The Second Hospital of Dalian Medical University"
+      >
+        <img
+          src="{{ "images/institutions/second-hospital-dmu.png" | relative_url | uri_escape }}"
+          alt="The Second Hospital of Dalian Medical University"
+        >
+      </a>
+    </div>
+  {% endif %}
+
   <a href="{{ "/" | relative_url }}" class="home">
     {% if logo %}
       <span class="logo">
