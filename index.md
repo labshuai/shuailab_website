@@ -1,7 +1,7 @@
 ---
 ---
 
-# Shuai Wang Tri lab's Website
+# About
 
 Our laboratory, located in Dalian, China, investigates the mechanisms underlying retinal vascular dysfunction and ocular surface disease, with a focus on inflammation, oxidative stress, and translational therapeutic strategies. We aim to understand how cellular stress responses and intercellular signaling drive tissue degeneration and barrier breakdown, and how these processes can be therapeutically targeted. We welcome academic and clinical collaborations.
 
