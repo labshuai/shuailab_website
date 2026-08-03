@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 900" role="img" aria-labelledby="title desc">
+  <title id="title">Oxidative stress, autophagy, and pyroptosis in retinopathy</title>
+  <desc id="desc">Retinal neovascularization surrounded by oxidative stress and autophagy symbols.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#111936"/>
+      <stop offset="1" stop-color="#52245f"/>
+    </linearGradient>
+    <radialGradient id="disc">
+      <stop offset="0" stop-color="#f8b84e"/>
+      <stop offset="0.3" stop-color="#d94e72"/>
+      <stop offset="1" stop-color="#391845"/>
+    </radialGradient>
+  </defs>
+  <rect width="900" height="900" rx="56" fill="url(#bg)"/>
+  <circle cx="450" cy="455" r="290" fill="url(#disc)" stroke="#f9d0df" stroke-width="7"/>
+  <g fill="none" stroke-linecap="round">
+    <path d="M450 455 343 347 280 234M395 399l-111 10-100-51M450 455 322 510l-117 99M375 488l-16 132-65 82M450 455 551 340l84-112M504 395l106 11 96-65M450 455l136 56 116 90M527 489l43 131 78 84" stroke="#6d173c" stroke-width="28"/>
+    <path d="M450 455 343 347 280 234M395 399l-111 10-100-51M450 455 322 510l-117 99M375 488l-16 132-65 82M450 455 551 340l84-112M504 395l106 11 96-65M450 455l136 56 116 90M527 489l43 131 78 84" stroke="#ff869d" stroke-width="9"/>
+  </g>
+  <circle cx="450" cy="455" r="53" fill="#ffd16e"/>
+  <g fill="none" stroke="#7cf3dd" stroke-width="13">
+    <circle cx="680" cy="205" r="75"/>
+    <circle cx="680" cy="205" r="37"/>
+    <path d="M628 153 732 257M732 153 628 257" opacity="0.35"/>
+  </g>
+  <g fill="#ffd166">
+    <path d="m202 178 17 38 39 17-39 17-17 39-17-39-39-17 39-17Z"/>
+    <path d="m745 626 15 33 33 15-33 15-15 34-15-34-33-15 33-15Z"/>
+    <path d="m184 686 11 25 25 11-25 11-11 25-11-25-25-11 25-11Z"/>
+  </g>
+</svg>
