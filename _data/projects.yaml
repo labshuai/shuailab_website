@@ -2,6 +2,8 @@
   subtitle: Gene Therapy and Targeted Small-Molecule Therapeutics
   group: featured
   image: images/project.jpg
+  image_fit: panorama
+  image_link: images/project.jpg
   description: >-
     We investigate the inflammatory and immune mechanisms that drive retinal
     vascular disease and retinal degeneration, translating these discoveries

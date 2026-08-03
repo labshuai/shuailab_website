@@ -1,15 +1,20 @@
+{% assign image_link = include.image_link | default: include.link %}
+
 <div
   class="feature"
   {% if include.flip %}
     data-flip
   {% endif %}
+  {% if include.image_fit %}
+    data-image-fit="{{ include.image_fit | xml_escape }}"
+  {% endif %}
 >
   <a
-    {% if include.link %}
-      href="{{ include.link | relative_url | uri_escape }}"
+    {% if image_link %}
+      href="{{ image_link | relative_url | uri_escape }}"
     {% endif %}
     class="feature-image"
-    aria-label="{{ include.title | default: "feature link" | regex_strip }}"
+    aria-label="{% if include.image_link %}View full-size image: {% endif %}{{ include.title | default: "feature link" | regex_strip }}"
   >
     <img
       src="{{ include.image | relative_url | uri_escape }}"

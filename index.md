@@ -29,6 +29,8 @@ We study the mechanisms by which inflammation and oxidative stress disrupt retin
 {%
   include feature.html
   image="images/project.jpg"
+  image_fit="panorama"
+  image_link="images/project.jpg"
   link="research"
   title="Our Research"
   text=text
