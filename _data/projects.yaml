@@ -1,43 +1,45 @@
+- title: Inflammation and Immunity in Retinal Vascular Disease and Degeneration
+  subtitle: Gene Therapy and Targeted Small-Molecule Therapeutics
+  group: featured
+  image: images/project.jpg
+  description: >-
+    We investigate the inflammatory and immune mechanisms that drive retinal
+    vascular disease and retinal degeneration, translating these discoveries
+    into gene therapies and targeted small-molecule treatments that preserve
+    retinal structure and visual function.
+  tags:
+    - retinal disease
+    - inflammation
+    - immunology
+    - gene therapy
+    - small-molecule therapy
+
+- title: Translational Research in Dry Eye and Corneal Disease
+  subtitle: Nanodrug Delivery, AI, and Advanced Biomaterials
+  group: featured
+  image: images/dry_eye.jpg
+  description: >-
+    We investigate the mechanisms underlying dry eye and related corneal
+    diseases and translate these insights into new therapeutic platforms. Our
+    work integrates nanodrug delivery, AI-guided discovery and design, and
+    advanced structurally engineered biomaterials to promote ocular surface
+    repair and improve treatment durability.
+  tags:
+    - dry eye
+    - corneal disease
+    - nanomedicine
+    - artificial intelligence
+    - biomaterials
+
 - title: National Natural Science Foundation of China
   subtitle: (Youth Project)
-  group: featured
   image: images/photo.jpg
-  link: https://github.com/
-  description: The Role and Molecular Mechanism of Bone Marrow-derived CXCR2-positive Monocytes in Hypertensive Retinal Vascular Injury.
-    
+  description: >-
+    The Role and Molecular Mechanism of Bone Marrow-derived CXCR2-positive
+    Monocytes in Hypertensive Retinal Vascular Injury.
 
-- title:  Liaoning Provincial Natural Science Foundation
-  subtitle: _
-  group: featured
+- title: Liaoning Provincial Natural Science Foundation
   image: images/photo.jpg
-  link: https://github.com/
-  description: Molecular Mechanism of Immunoproteasome Subunit β5i Promoting Angiotensin II-Induced Retinal Vascular Injury.
- 
-
-- title: Cool Tutorial
-  subtitle: a subtitle
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
-  tags:
-    - resource
-    - publication
-
-- title: Cool Web App
-  subtitle: a subtitle
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
-  tags:
-    - software
-
-- title: Cool Web Server
-  subtitle: a subtitle
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
-  tags:
-    - software
+  description: >-
+    Molecular Mechanism of Immunoproteasome Subunit β5i Promoting Angiotensin
+    II-Induced Retinal Vascular Injury.

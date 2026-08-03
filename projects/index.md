@@ -2,20 +2,18 @@
 title: Projects
 nav:
   order: 2
-  tooltip: Software, datasets, and more
+  tooltip: Research programs and therapeutic platforms
 ---
 
 # {% include icon.html icon="fa-solid fa-wrench" %}Projects
 
-We investigate the pathophysiology of dry eye disease, with an emphasis on ocular surface inflammation, epithelial stress responses, and tissue homeostasis. In parallel, we develop and translate biomaterial-based therapeutic platforms designed to improve ocular surface protection and long-term treatment efficacy.
-
-{% include tags.html tags="publication, resource, website" %}
+Our research connects fundamental disease mechanisms with therapeutic innovation across the retina, cornea, and ocular surface. We combine inflammation and immunology, gene and small-molecule therapies, nanodrug delivery, artificial intelligence, and advanced biomaterials to develop more precise and durable treatments for vision-threatening diseases.
 
 {% include search-info.html %}
 
 {% include section.html %}
 
-## Featured
+## Research Programs
 
 {% include list.html component="card" data="projects" filter="group == 'featured'" %}
 
