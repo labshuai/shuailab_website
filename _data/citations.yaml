@@ -142,6 +142,45 @@
   image: images/publications/2022-cxcl1-cxcr2-retinopathy.jpg
   plugin: sources.py
   file: sources.yaml
+- id: doi:10.1016/j.exer.2022.109366
+  title: Relationship between plasma amino acid and carnitine levels and primary angle-closure
+    glaucoma based on mass spectrometry metabolomics
+  authors:
+  - Zhijian Zhang
+  - Li Li
+  - Ce Zhang
+  - Pengfei Zhang
+  - Zhongze Fang
+  - Jingmin Li
+  - Shuai Wang
+  publisher: Experimental Eye Research
+  date: '2023-02-01'
+  link: https://doi.org/hcdg3c
+  image: images/publications/2023-amino-acid-carnitine-glaucoma.svg
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1111/aos.14874
+  title: "Association between plasma free fatty acid levels and primary angle\u2010\
+    closure glaucoma based on a mass spectrometry metabolomics analysis"
+  authors:
+  - Yuting Qin
+  - Xiaofei Feng
+  - Huihuan Luo
+  - Shengqiang Liu
+  - Xiaochen Wang
+  - Xi Wang
+  - Qian Yang
+  - Qi Zhao
+  - Yunfeng Cao
+  - Jingmin Li
+  - Zhongze Fang
+  - Shuai Wang
+  publisher: Acta Ophthalmologica
+  date: '2022-02-01'
+  link: https://doi.org/gp2kmf
+  image: images/publications/2022-free-fatty-acid-glaucoma.svg
+  plugin: sources.py
+  file: sources.yaml
 - id: doi:10.3389/fphar.2023.1164333
   title: Fucoidan inhibits apoptosis and improves cardiac remodeling by inhibiting
     p53 transcriptional activation through USP22/Sirt 1
@@ -182,10 +221,37 @@
   - Jinsong Zhang
   - Qi Zhao
   - Shuai Wang
-  publisher: Investigative Opthalmology &amp; Visual Science
+  publisher: Investigative Ophthalmology & Visual Science
   date: '2020-12-28'
   link: https://doi.org/hbndbs
   image: images/publications/2020-immunosubunit-beta5i-neovascularization.jpg
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1016/j.bbrc.2018.12.049
+  title: The anti-inflammatory and anti-oxidative effects of conbercept in treatment
+    of macular edema secondary to retinal vein occlusion
+  authors:
+  - Jian-Ping Xia
+  - Shuai Wang
+  - Jin-Song Zhang
+  publisher: Biochemical and Biophysical Research Communications
+  date: '2019-01-22'
+  link: https://doi.org/gh4jcb
+  image: images/publications/2019-conbercept-retinal-vein-occlusion.svg
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.3892/mmr.2018.9759
+  title: "Oxidative stress, autophagy and pyroptosis in the neovascularization of\
+    \ oxygen\u2011induced retinopathy in mice"
+  authors:
+  - Shuai Wang
+  - "Li\u2011Yang Ji"
+  - Li Li
+  - "Jing\u2011Min Li"
+  publisher: Molecular Medicine Reports
+  date: '2019-02-01'
+  link: https://doi.org/hcdg3d
+  image: images/publications/2019-oir-autophagy-pyroptosis.svg
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1016/j.ajo.2024.04.021

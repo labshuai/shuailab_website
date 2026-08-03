@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 900" role="img" aria-labelledby="title desc">
+  <title id="title">Conbercept treatment for retinal vein occlusion</title>
+  <desc id="desc">Retinal blood vessels with a therapeutic blockade symbol.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#160f2f"/>
+      <stop offset="1" stop-color="#8c1d40"/>
+    </linearGradient>
+    <radialGradient id="retina">
+      <stop offset="0" stop-color="#ffcf70"/>
+      <stop offset="0.35" stop-color="#db4c5e"/>
+      <stop offset="1" stop-color="#4b1535"/>
+    </radialGradient>
+  </defs>
+  <rect width="900" height="900" rx="56" fill="url(#bg)"/>
+  <circle cx="410" cy="455" r="305" fill="url(#retina)" stroke="#ffd5ca" stroke-width="7"/>
+  <circle cx="410" cy="455" r="45" fill="#ffd985"/>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M410 455 290 364 185 314M330 398l-32-104-60-74M410 455 268 500l-99 88M312 486l-18 120-63 77M410 455 526 347l69-102M483 387l104 8 76-42M410 455l134 81 98 9M494 506l57 108 87 66M410 455l18 155 51 98" stroke="#6b0f2a" stroke-width="27"/>
+    <path d="M410 455 290 364 185 314M330 398l-32-104-60-74M410 455 268 500l-99 88M312 486l-18 120-63 77M410 455 526 347l69-102M483 387l104 8 76-42M410 455l134 81 98 9M494 506l57 108 87 66M410 455l18 155 51 98" stroke="#ffac9d" stroke-width="9"/>
+  </g>
+  <circle cx="666" cy="259" r="126" fill="#f7fbff" stroke="#c8ebff" stroke-width="8"/>
+  <path d="M613 206 719 312M719 206 613 312" stroke="#1597bb" stroke-width="28" stroke-linecap="round"/>
+  <path d="M745 120 701 164" stroke="#d9f5ff" stroke-width="18" stroke-linecap="round"/>
+  <path d="m766 99 35-35 35 35-35 35Z" fill="#d9f5ff"/>
+</svg>

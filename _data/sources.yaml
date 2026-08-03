@@ -19,6 +19,14 @@
 - id: doi:10.1016/j.redox.2022.102438
   image: images/publications/2022-cxcl1-cxcr2-retinopathy.jpg
 
+- id: doi:10.1016/j.exer.2022.109366
+  date: '2023-02-01'
+  image: images/publications/2023-amino-acid-carnitine-glaucoma.svg
+
+- id: doi:10.1111/aos.14874
+  date: '2022-02-01'
+  image: images/publications/2022-free-fatty-acid-glaucoma.svg
+
 - id: doi:10.3389/fphar.2023.1164333
   image: images/publications/2023-fucoidan-cardiac-remodeling.jpg
 
@@ -26,7 +34,16 @@
   image: images/publications/2021-conbercept-retinopathy.jpg
 
 - id: doi:10.1167/iovs.61.14.30
+  publisher: 'Investigative Ophthalmology & Visual Science'
   image: images/publications/2020-immunosubunit-beta5i-neovascularization.jpg
+
+- id: doi:10.1016/j.bbrc.2018.12.049
+  date: '2019-01-22'
+  image: images/publications/2019-conbercept-retinal-vein-occlusion.svg
+
+- id: doi:10.3892/mmr.2018.9759
+  date: '2019-02-01'
+  image: images/publications/2019-oir-autophagy-pyroptosis.svg
 
 - id: doi:10.1016/j.ajo.2024.04.021
   image: images/publications/2024-secondary-glaucoma-meta-analysis.jpg
