@@ -7,8 +7,10 @@
     // for each top-level table
     const tables = document.querySelectorAll("table:not(table table)");
     for (const table of tables) {
+      if (table.parentElement?.dataset.tableWrapper === "true") continue;
       // create wrapper with scroll
       const wrapper = document.createElement("div");
+      wrapper.dataset.tableWrapper = "true";
       wrapper.style.overflowX = "auto";
 
       // undo css force-text-wrap
@@ -22,4 +24,5 @@
 
   // after page loads
   window.addEventListener("load", onLoad);
+  window.addEventListener("languagepagechange", onLoad);
 }

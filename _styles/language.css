@@ -1,0 +1,41 @@
+html[lang=zh-CN] body {
+  font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans CJK SC", sans-serif;
+  line-height: 1.75;
+}
+
+html[lang=zh-CN] h1,
+html[lang=zh-CN] h2,
+html[lang=zh-CN] h3,
+html[lang=zh-CN] h4,
+html[lang=zh-CN] h5,
+html[lang=zh-CN] h6,
+html[lang=zh-CN] nav,
+html[lang=zh-CN] .title,
+html[lang=zh-CN] .card-title,
+html[lang=zh-CN] .portrait-name {
+  font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans CJK SC", sans-serif;
+  letter-spacing: 0.01em;
+}
+
+html[data-language-loading=true] main,
+html[data-language-loading=true] header,
+html[data-language-loading=true] footer {
+  opacity: 0.72;
+}
+
+header,
+main,
+footer {
+  transition: opacity 120ms ease;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  header,
+  main,
+  footer,
+  .language-toggle {
+    transition: none;
+  }
+}
+
+/*# sourceMappingURL=language.css.map */

@@ -44,6 +44,7 @@
 
   // after page loads
   window.addEventListener("load", onLoad);
+  window.addEventListener("languagepagechange", onLoad);
 
   // GitHub topics endpoint
   const api = "https://api.github.com/repos/REPO/topics";

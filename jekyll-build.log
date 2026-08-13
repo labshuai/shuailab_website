@@ -1,0 +1,53 @@
+  Jekyll Spaceship: [1m🚀 Jekyll-Spaceship 0.10.2[0m
+  Jekyll Spaceship: [1m🎉 A Jekyll plugin to provide powerful supports.[0m
+  Jekyll Spaceship: [1m👉 [4mhttps://github.com/jeffreytse/jekyll-spaceship[0m
+Configuration file: /home/runner/work/shuailab_website/shuailab_website/_config.yaml
+  Jekyll Spaceship: 🗂  use table-processor
+  Jekyll Spaceship: 🗂  use mathjax-processor
+  Jekyll Spaceship: 🗂  use plantuml-processor
+  Jekyll Spaceship: 🗂  use mermaid-processor
+  Jekyll Spaceship: 🗂  use polyfill-processor
+  Jekyll Spaceship: 🗂  use media-processor
+  Jekyll Spaceship: 🗂  use emoji-processor
+  Jekyll Spaceship: 🗂  use element-processor
+            Source: /home/runner/work/shuailab_website/shuailab_website
+       Destination: /home/runner/work/shuailab_website/shuailab_website/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+       Jekyll Feed: Generating feed for posts
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36m/home/runner/work/shuailab_website/shuailab_website/_site/2022/02/18/corneal-transplantation-four-year-old-patient.html[0m[0m
+[33m                     - 2022/02/18/corneal-transplantation-four-year-old-patient.html[0m
+[33m                     - /home/runner/work/shuailab_website/shuailab_website/_posts/2022-02-18-corneal-transplantation-four-year-old-patient.md[0m
+[33m                    [0m
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36m/home/runner/work/shuailab_website/shuailab_website/_site/2024/02/15/protective-pathway-hypertensive-retinopathy.html[0m[0m
+[33m                     - 2024/02/15/protective-pathway-hypertensive-retinopathy.html[0m
+[33m                     - /home/runner/work/shuailab_website/shuailab_website/_posts/2024-02-15-protective-pathway-hypertensive-retinopathy.md[0m
+[33m                    [0m
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36m/home/runner/work/shuailab_website/shuailab_website/_site/2024/04/26/secondary-glaucoma-congenital-cataract-surgery.html[0m[0m
+[33m                     - 2024/04/26/secondary-glaucoma-congenital-cataract-surgery.html[0m
+[33m                     - /home/runner/work/shuailab_website/shuailab_website/_posts/2024-04-26-secondary-glaucoma-congenital-cataract-surgery.md[0m
+[33m                    [0m
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36m/home/runner/work/shuailab_website/shuailab_website/_site/2025/01/01/retinal-imaging-study-ieee-transactions.html[0m[0m
+[33m                     - 2025/01/01/retinal-imaging-study-ieee-transactions.html[0m
+[33m                     - /home/runner/work/shuailab_website/shuailab_website/_posts/2025-01-01-retinal-imaging-study-ieee-transactions.md[0m
+[33m                    [0m
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36m/home/runner/work/shuailab_website/shuailab_website/_site/2025/08/07/inflammatory-proteins-primary-open-angle-glaucoma.html[0m[0m
+[33m                     - 2025/08/07/inflammatory-proteins-primary-open-angle-glaucoma.html[0m
+[33m                     - /home/runner/work/shuailab_website/shuailab_website/_posts/2025-08-07-inflammatory-proteins-primary-open-angle-glaucoma.md[0m
+[33m                    [0m
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36m/home/runner/work/shuailab_website/shuailab_website/_site/2026/03/27/nano-hydrogen-therapy-dry-eye.html[0m[0m
+[33m                     - 2026/03/27/nano-hydrogen-therapy-dry-eye.html[0m
+[33m                     - /home/runner/work/shuailab_website/shuailab_website/_posts/2026-03-27-nano-hydrogen-therapy-dry-eye.md[0m
+[33m                    [0m

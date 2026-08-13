@@ -17,6 +17,7 @@ header a {
 }
 
 .home {
+  order: 1;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -24,6 +25,31 @@ header a {
   flex-basis: 0;
   flex-grow: 1;
   max-width: 100%;
+}
+
+.language-toggle {
+  order: 3;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 50px;
+  min-height: 34px;
+  padding: 5px 12px;
+  border: 1px solid currentColor;
+  border-radius: 999px;
+  font-family: var(--heading);
+  font-size: var(--small);
+  font-weight: var(--semi-bold);
+  line-height: 1;
+  white-space: nowrap;
+  transition: color var(--transition), background var(--transition), transform var(--transition);
+}
+
+.language-toggle:hover,
+.language-toggle:focus-visible {
+  background: var(--text);
+  color: var(--background);
+  transform: translateY(-1px);
 }
 
 .logo {
@@ -85,6 +111,7 @@ header a {
 }
 
 .nav-toggle {
+  order: 3;
   display: none;
   position: relative;
   width: 30px;
@@ -112,6 +139,7 @@ header a {
 }
 
 nav {
+  order: 2;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -133,13 +161,21 @@ nav > a:hover {
   header:not([data-big]) {
     justify-content: flex-end;
   }
+  header:not([data-big]) .home {
+    order: 1;
+  }
+  header:not([data-big]) .language-toggle {
+    order: 2;
+  }
   header:not([data-big]) .nav-toggle {
+    order: 3;
     display: flex;
   }
   header:not([data-big]) .nav-toggle:not(:checked) + nav {
     display: none;
   }
   header:not([data-big]) nav {
+    order: 4;
     align-items: flex-end;
     flex-direction: column;
     width: 100%;
@@ -161,6 +197,14 @@ header[data-big] .institution-logos {
   display: flex;
   align-items: center;
   gap: 18px;
+}
+header[data-big] .language-toggle {
+  position: absolute;
+  top: 28px;
+  right: 32px;
+  z-index: 2;
+  min-width: 58px;
+  min-height: 38px;
 }
 header[data-big] .home {
   flex-direction: column;
@@ -192,6 +236,10 @@ header[data-big] .subtitle {
     height: 64px;
     padding: 3px;
   }
+  header[data-big] .language-toggle {
+    top: 18px;
+    right: 18px;
+  }
 }
 @media (max-width: 480px) {
   header[data-big] .institution-logos {
@@ -203,6 +251,13 @@ header[data-big] .subtitle {
     width: 50px;
     height: 50px;
     padding: 2px;
+  }
+  header[data-big] .language-toggle {
+    top: 14px;
+    right: 14px;
+    min-width: 48px;
+    min-height: 32px;
+    padding: 4px 10px;
   }
 }
 

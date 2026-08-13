@@ -36,6 +36,7 @@
 
   // after page loads
   window.addEventListener("load", onLoad);
+  window.addEventListener("languagepagechange", onLoad);
   // after tags load
   window.addEventListener("tagsfetched", onLoad);
 }

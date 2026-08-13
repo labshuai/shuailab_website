@@ -9,6 +9,7 @@
       "h1[id], h2[id], h3[id], h4[id], h5[id], h6[id]"
     );
     for (const heading of headings) {
+      if (heading.querySelector(":scope > .anchor")) continue;
       // create anchor link
       const link = document.createElement("a");
       link.classList.add("icon", "fa-solid", "fa-link", "anchor");
@@ -39,6 +40,7 @@
 
   // after page loads
   window.addEventListener("load", onLoad);
+  window.addEventListener("languagepagechange", onLoad);
   window.addEventListener("load", scrollToTarget);
   window.addEventListener("tagsfetched", scrollToTarget);
 
