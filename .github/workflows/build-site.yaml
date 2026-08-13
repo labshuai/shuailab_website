@@ -55,7 +55,7 @@ jobs:
       - name: Report Jekyll build failure
         if: steps.jekyll-build.outcome == 'failure'
         run: |
-          message="$(tail -n 30 jekyll-build.log)"
+          message="$(head -n 80 jekyll-build.log)"
           message="${message//'%'/'%25'}"
           message="${message//$'\r'/'%0D'}"
           message="${message//$'\n'/'%0A'}"
