@@ -46,8 +46,21 @@ jobs:
           printf "\n\nurl: ${{ steps.pages.outputs.origin }}" >> _config.yaml
 
       - name: Build live version of site
+        id: jekyll-build
+        continue-on-error: true
         run: |
-          JEKYLL_ENV=production bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path || '' }}"
+          set -o pipefail
+          JEKYLL_ENV=production bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path || '' }}" 2>&1 | tee jekyll-build.log
+
+      - name: Report Jekyll build failure
+        if: steps.jekyll-build.outcome == 'failure'
+        run: |
+          message="$(tail -n 30 jekyll-build.log)"
+          message="${message//'%'/'%25'}"
+          message="${message//$'\r'/'%0D'}"
+          message="${message//$'\n'/'%0A'}"
+          echo "::error title=Jekyll build failed::$message"
+          exit 1
 
       - name: Commit live site to Pages branch
         uses: JamesIves/github-pages-deploy-action@v4.5.0
