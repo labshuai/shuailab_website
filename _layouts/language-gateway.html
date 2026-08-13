@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="{{ '/' | absolute_url }}">
+    <link rel="alternate" hreflang="en" href="{{ '/en/' | absolute_url }}">
+    <link rel="alternate" hreflang="zh-CN" href="{{ '/zh/' | absolute_url }}">
+    <link rel="alternate" hreflang="x-default" href="{{ '/' | absolute_url }}">
+    <title>{{ site.title }}</title>
+    <script>
+      (() => {
+        const saved = window.localStorage.getItem("site-language");
+        const browserLanguage = navigator.language || "";
+        const language = saved || (browserLanguage.toLowerCase().startsWith("zh") ? "zh" : "en");
+        const destinations = {
+          en: {{ '/en/' | relative_url | jsonify }},
+          zh: {{ '/zh/' | relative_url | jsonify }}
+        };
+        window.location.replace(destinations[language] || destinations.en);
+      })();
+    </script>
+    <style>
+      body {
+        display: grid;
+        min-height: 100vh;
+        margin: 0;
+        place-items: center;
+        background: #111d29;
+        color: #fff;
+        font-family: system-ui, sans-serif;
+      }
+      main { text-align: center; }
+      a { color: #fff; margin: 0 0.75rem; }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>{{ site.title }}</h1>
+      <p><a href="{{ '/en/' | relative_url }}">English</a> · <a href="{{ '/zh/' | relative_url }}">中文</a></p>
+    </main>
+  </body>
+</html>

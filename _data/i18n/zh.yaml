@@ -1,0 +1,26 @@
+home: 首页
+navigation_toggle: 显示或隐藏导航菜单
+affiliated_institutions: 所属机构
+dalian_medical_university: 大连医科大学
+second_hospital_dmu: 大连医科大学附属第二医院
+dark_mode: 深色模式
+built_with: 基于
+search_placeholder: 搜索本页内容
+clear_search: 清除搜索
+showing_results: 显示 {shown} / {total} 条结果
+previous_post: 上一篇
+next_post: 下一篇
+published_on: 发布于
+updated_on: 更新于
+author: 作者
+show_tag: 显示带有“{tag}”标签的内容
+member_link: 成员详情
+member_portrait: 成员照片
+view_full_size_image: 查看原图：
+card_link: 项目详情
+card_image: 项目图片
+feature_link: 精选内容
+feature_image: 精选图片
+member_papers_prefix: 在论文发表页面搜索
+member_papers_suffix: 的论文
+translation_unavailable: 暂无对应翻译

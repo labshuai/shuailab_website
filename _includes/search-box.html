@@ -1,14 +1,20 @@
-<div class="search-box">
+{% assign lang = page.lang | default: "en" %}
+{% assign ui = site.data.i18n[lang] %}
+<div
+  class="search-box"
+  data-showing-template="{{ ui.showing_results | xml_escape }}"
+  data-clear-label="{{ ui.clear_search | xml_escape }}"
+>
   <input
     type="text"
     class="search-input"
     oninput="onSearchInput(this)"
-    placeholder="Search items on this page"
+    placeholder="{{ ui.search_placeholder }}"
   />
   <button
     disabled
-    data-tooltip="Clear search"
-    aria-label="clear search"
+    data-tooltip="{{ ui.clear_search }}"
+    aria-label="{{ ui.clear_search }}"
     onclick="onSearchClear()"
   >
     {% include icon.html icon="fa-solid fa-magnifying-glass" %}

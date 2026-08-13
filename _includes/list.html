@@ -21,6 +21,14 @@
 
 {% for d in data %}
 {% assign style = d.style | default: include.style %}
+{% assign localized = nil %}
+{% if page.lang == "zh" and include.data == "projects" and d.key %}
+  {% assign localized = site.data.projects_zh[d.key] %}
+{% endif %}
+{% assign localized_title = localized.title | default: d.title %}
+{% assign localized_subtitle = localized.subtitle | default: d.subtitle %}
+{% assign localized_description = localized.description | default: d.description %}
+{% assign localized_tags = localized.tags | default: d.tags %}
 
 {%
 include {{ include.component | append: ".html" }}
@@ -31,7 +39,7 @@ buttons=d.buttons
 caption=d.caption
 content=d.content
 date=d.date
-description=d.description
+description=localized_description
 excerpt=d.excerpt
 height=d.height
 icon=d.icon
@@ -43,15 +51,16 @@ last_modified_at=d.last_modified_at
 link=d.link
 lookup=d.lookup
 name=d.name
+key=d.key
 publisher=d.publisher
 repo=d.repo
 role=d.role
 slug=d.slug
 style=style
-subtitle=d.subtitle
-tags=d.tags
+subtitle=localized_subtitle
+tags=localized_tags
 text=d.text
-title=d.title
+title=localized_title
 tooltip=d.tooltip
 type=d.type
 url=d.url

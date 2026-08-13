@@ -1,0 +1,13 @@
+en:
+  code: en
+  locale: en_US
+  root: /en/
+  switch_label: 中文
+  switch_aria: Switch to Chinese
+
+zh:
+  code: zh-CN
+  locale: zh_CN
+  root: /zh/
+  switch_label: EN
+  switch_aria: 切换至英文

@@ -134,10 +134,17 @@
       // show all info boxes
       boxes.forEach((info) => (info.style.display = ""));
 
-      // info template
-      let info = "";
-      info += `Showing ${x.toLocaleString()} of ${n.toLocaleString()} results<br>`;
-      info += "<a href='./'>Clear search</a>";
+      const settings = document.querySelector(searchBoxSelector)?.dataset || {};
+      const locale = document.documentElement.lang || "en";
+      const number = new Intl.NumberFormat(locale);
+      const template = settings.showingTemplate || "Showing {shown} of {total} results";
+      const summary = template
+        .replace("{shown}", number.format(x))
+        .replace("{total}", number.format(n));
+      const clearLabel = settings.clearLabel || "Clear search";
+
+      let info = `${summary}<br>`;
+      info += `<a href="./">${clearLabel}</a>`;
 
       // set info HTML string
       boxes.forEach((el) => (el.innerHTML = info));
@@ -210,6 +217,7 @@
 
   // after page loads
   window.addEventListener("load", searchFromUrl);
+  window.addEventListener("languagepagechange", searchFromUrl);
   // after tags load
   window.addEventListener("tagsfetched", searchFromUrl);
 }

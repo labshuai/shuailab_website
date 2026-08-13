@@ -9,12 +9,13 @@
 
   const onLoad = () => {
     // update toggle button to match loaded mode
-    document.querySelector(".dark-toggle").checked =
-      document.documentElement.dataset.dark === "true";
+    const toggle = document.querySelector(".dark-toggle");
+    if (toggle) toggle.checked = document.documentElement.dataset.dark === "true";
   };
 
   // after page loads
   window.addEventListener("load", onLoad);
+  window.addEventListener("languagepagechange", onLoad);
 
   // when user toggles mode button
   window.onDarkToggleChange = (event) => {

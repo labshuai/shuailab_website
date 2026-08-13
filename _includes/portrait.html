@@ -3,20 +3,36 @@
     | where_exp: "member", "member.slug == include.lookup"
     | first
   %}
+{% elsif include.slug %}
+  {% assign member = site.members
+    | where_exp: "member", "member.slug == include.slug"
+    | first
+    | default: include
+  %}
 {% else %}
   {% assign member = include %}
 {% endif %}
 
 {% assign type = site.data.types[member.role] %}
+{% assign lang = page.lang | default: "en" %}
+{% assign ui = site.data.i18n[lang] %}
+{% assign translated_member = site.data.members_zh[member.slug] %}
+{% assign display_name = member.name %}
+{% assign display_description = member.description | default: type.description %}
+{% if lang == "zh" %}
+  {% assign display_name = translated_member.name | default: member.name %}
+  {% assign display_description = translated_member.description | default: type.description_zh | default: display_description %}
+{% endif %}
+{% capture member_url %}/{{ lang }}/team/{{ member.slug }}/{% endcapture %}
 
 <div class="portrait-wrapper">
   <a
-    {% if page.slug != member.slug %}
-      href="{{ member.url | relative_url | uri_escape }}"
+    {% if page.member_slug != member.slug %}
+      href="{{ member_url | relative_url | uri_escape }}"
     {% endif %}
     class="portrait"
     data-style="{{ include.style }}"
-    aria-label="{{ member.name | default: "member link" | regex_strip }}"
+    aria-label="{{ display_name | default: ui.member_link | regex_strip }}"
   >
     {% if type %}
       {% include icon.html icon=type.icon %}
@@ -25,20 +41,20 @@
     <img
       src="{{ member.image | relative_url | uri_escape }}"
       class="portrait-image"
-      alt="member portrait"
+      alt="{{ display_name | append: ' — ' | append: ui.member_portrait | regex_strip }}"
       loading="lazy"
       {% include fallback.html %}
     >
 
-    {% if member.name %}
+    {% if display_name %}
       <span class="portrait-name">
-        {{ member.name }}
+        {{ display_name }}
       </span>
     {% endif %}
 
-    {% if member.description or type %}
+    {% if display_description %}
       <span class="portrait-description">
-        {{ member.description | default: type.description }}
+        {{ display_description }}
       </span>
     {% endif %}
 

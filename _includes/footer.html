@@ -1,5 +1,7 @@
 {% assign image = page.footer | default: site.footer %}
 {% assign dark = page.footer-dark | is_nil: site.footer-dark | is_nil: true %}
+{% assign lang = page.lang | default: "en" %}
+{% assign ui = site.data.i18n[lang] %}
 
 <footer
   class="background"
@@ -26,7 +28,7 @@
   <div>
     &copy; {{ site.time | date: "%Y" }}
     {{ site.title }}
-    &nbsp; | &nbsp; Built with
+    &nbsp; | &nbsp; {{ ui.built_with }}
     <a href="https://github.com/greenelab/lab-website-template">
       Lab Website Template
     </a>
@@ -35,8 +37,8 @@
   <input
     type="checkbox"
     class="dark-toggle"
-    data-tooltip="Dark mode"
-    aria-label="toggle dark mode"
+    data-tooltip="{{ ui.dark_mode }}"
+    aria-label="{{ ui.dark_mode }}"
     oninput="onDarkToggleChange(event)"
   >
 </footer>

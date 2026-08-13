@@ -8,6 +8,7 @@
   {% assign citation = include %}
 {% endif %}
 {% assign citation_image = citation.image | default: "images/publications/default.svg" %}
+{% assign lang = page.lang | default: "en" %}
 
 <div class="citation-container">
   <div class="citation">
@@ -66,7 +67,11 @@
         </span>
         &nbsp;·&nbsp;
         <span class="citation-date">
-          {{- citation.date | default: "[no date info]" | date: "%d %b %Y" -}}
+          {% if lang == "zh" %}
+            {{- citation.date | default: "[无日期信息]" | date: "%Y年%-m月%-d日" -}}
+          {% else %}
+            {{- citation.date | default: "[no date info]" | date: "%d %b %Y" -}}
+          {% endif %}
         </span>
         &nbsp;·&nbsp;
         <span class="citation-id">

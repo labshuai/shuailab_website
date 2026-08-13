@@ -1,14 +1,6 @@
 ---
-title: Collaborative Lab
-nav:
-  order: 4
-  tooltip: Labs in collaboration
+layout: redirect
+redirect_to: /en/collaborative-lab/
+permalink: "/Collaborative Lab/"
+sitemap: false
 ---
-
-# {% include icon.html icon="fa-solid fa-handshake" %}Collaborative Lab
-
-We work closely with other leading laboratories to advance scientific research.
-
-{% include section.html %}
-
-{% include list.html data="members" component="portrait" filter="role == 'collaborator'" %}

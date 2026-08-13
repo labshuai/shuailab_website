@@ -4,7 +4,7 @@ layout: default
 
 {% capture floatcontent %}
 
-{% include portrait.html lookup=page.slug %}
+{% include portrait.html lookup=page.member_slug %}
 
 <div>
   {% for link in page.links %}
@@ -27,19 +27,21 @@ layout: default
 | split: ","
 | array_filter
 %}
+{% assign lang = page.lang | default: "en" %}
+{% assign ui = site.data.i18n[lang] %}
 
 {% capture search -%}
-research/?search={% for alias in aliases %}"{{ alias }}" {% endfor %}
+/{{ lang }}/research/?search={% for alias in aliases %}"{{ alias }}" {% endfor %}
 {%- endcapture %}
 
 <p class="center">
   <a href="{{ search | relative_url | uri_escape }}">
-    Search for {{ page.name | default: page.title }}'s papers on the Research page
+    {{ ui.member_papers_prefix }} {{ page.name | default: page.title }} {{ ui.member_papers_suffix }}
   </a>
 </p>
 
 {% capture search -%}
-blog/?search={{ page.name }}
+/{{ lang }}/blog/?search={{ page.name }}
 {%- endcapture %}
 
 <!--

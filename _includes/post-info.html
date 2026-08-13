@@ -1,4 +1,6 @@
 <div class="post-info">
+  {% assign lang = page.lang | default: "en" %}
+  {% assign ui = site.data.i18n[lang] %}
   {% if include.author %}
     {% assign authors = include.author
       | join: ","
@@ -14,7 +16,7 @@
       {% if member %}
         {% include portrait.html lookup=author style="tiny" %}
       {% else %}
-        <span data-tooltip="Author">
+        <span data-tooltip="{{ ui.author }}">
           {% include icon.html icon="fa-solid fa-feather-pointed" %}
           <span>{{ author }}</span>
         </span>
@@ -22,18 +24,23 @@
     {% endfor %}
   {% endif %}
 
-  {% assign published = include.published | date: "%B %d, %Y" %}
-  {% assign updated = include.updated | date: "%B %d, %Y" %}
+  {% if lang == "zh" %}
+    {% assign published = include.published | date: "%Y年%-m月%-d日" %}
+    {% assign updated = include.updated | date: "%Y年%-m月%-d日" %}
+  {% else %}
+    {% assign published = include.published | date: "%B %d, %Y" %}
+    {% assign updated = include.updated | date: "%B %d, %Y" %}
+  {% endif %}
 
   {% if published %}
-    <span data-tooltip="Originally published on">
+    <span data-tooltip="{{ ui.published_on }}">
       {% include icon.html icon="fa-regular fa-calendar" %}
       <span>{{ published }}</span>
     </span>
   {% endif %}
 
   {% if updated and updated != "" and updated != published %}
-    <span data-tooltip="Last updated on">
+    <span data-tooltip="{{ ui.updated_on }}">
       {% include icon.html icon="fa-solid fa-clock-rotate-left" %}
       <span>{{ updated }}</span>
     </span>
@@ -41,5 +48,6 @@
 </div>
 
 {% if include.tags %}
-  {% include tags.html tags=include.tags link="blog" %}
+  {% capture blog_link %}/{{ lang }}/blog/{% endcapture %}
+  {% include tags.html tags=include.tags link=blog_link %}
 {% endif %}

@@ -1,5 +1,8 @@
 {% assign image = page.header | default: site.header %}
 {% assign dark = page.header-dark | is_nil: site.header-dark | is_nil: true %}
+{% assign lang = page.lang | default: "en" %}
+{% assign language = site.data.languages[lang] %}
+{% assign ui = site.data.i18n[lang] %}
 
 {% assign svg = "images/logo.svg" | file_exists %}
 {% assign png = "images/logo.png" | file_exists %}
@@ -12,22 +15,22 @@
   {% if dark == true or dark == false %}
     data-dark="{{ dark }}"
   {% endif %}
-  {% if page.url == "/" %}
+  {% if page.is_home %}
     data-big
   {% endif %}
 >
-  {% if page.url == "/" %}
-    <div class="institution-logos" aria-label="Affiliated institutions">
+  {% if page.is_home %}
+    <div class="institution-logos" aria-label="{{ ui.affiliated_institutions }}">
       <a
         class="institution-logo"
         href="https://www.dmu.edu.cn/"
         target="_blank"
         rel="noopener noreferrer"
-        aria-label="Dalian Medical University"
+        aria-label="{{ ui.dalian_medical_university }}"
       >
         <img
           src="{{ "images/institutions/dalian-medical-university.png" | relative_url | uri_escape }}"
-          alt="Dalian Medical University"
+          alt="{{ ui.dalian_medical_university }}"
         >
       </a>
       <a
@@ -35,17 +38,17 @@
         href="https://www.shdmu.com/web/homePage/index"
         target="_blank"
         rel="noopener noreferrer"
-        aria-label="The Second Hospital of Dalian Medical University"
+        aria-label="{{ ui.second_hospital_dmu }}"
       >
         <img
           src="{{ "images/institutions/second-hospital-dmu.png" | relative_url | uri_escape }}"
-          alt="The Second Hospital of Dalian Medical University"
+          alt="{{ ui.second_hospital_dmu }}"
         >
       </a>
     </div>
   {% endif %}
 
-  <a href="{{ "/" | relative_url }}" class="home">
+  <a href="{{ language.root | relative_url }}" class="home">
     {% if logo %}
       <span class="logo">
         {% if svg %}
@@ -56,7 +59,7 @@
       </span>
     {% endif %}
     {% if site.logo-text != false %}
-      <span class="title-text" data-tooltip="Home">
+      <span class="title-text" data-tooltip="{{ ui.home }}">
         {% if site.title and site.show-title != false %}
           <span class="title">{{ site.title }}</span>
         {% endif %}
@@ -67,20 +70,33 @@
     {% endif %}
   </a>
 
-  <input class="nav-toggle" type="checkbox" aria-label="show/hide nav">
+  {% if page.alternate_url %}
+    <a
+      class="language-toggle"
+      href="{{ page.alternate_url | relative_url }}"
+      hreflang="{% if lang == 'en' %}zh-CN{% else %}en{% endif %}"
+      aria-label="{{ language.switch_aria }}"
+      data-language-target="{% if lang == 'en' %}zh{% else %}en{% endif %}"
+    >
+      {{ language.switch_label }}
+    </a>
+  {% endif %}
+
+  <input class="nav-toggle" type="checkbox" aria-label="{{ ui.navigation_toggle }}">
 
   <nav>
     {% assign pages = site.pages
-      | where_exp: "page", "page.nav"
+      | where: "lang", lang
+      | where_exp: "item", "item.nav"
       | sort: "nav.order"
     %}
-    {% for page in pages %}
-      {% if page.nav %}
+    {% for nav_page in pages %}
+      {% if nav_page.nav %}
         <a
-          href="{{ page.dir | relative_url | uri_escape }}"
-          data-tooltip="{{ page.nav.tooltip | xml_escape }}"
+          href="{{ nav_page.url | relative_url | uri_escape }}"
+          data-tooltip="{{ nav_page.nav.tooltip | xml_escape }}"
         >
-          {{ page.title }}
+          {{ nav_page.title }}
         </a>
       {% endif %}
     {% endfor %}

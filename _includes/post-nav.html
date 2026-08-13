@@ -1,17 +1,19 @@
 <div class="post-nav">
+  {% assign lang = page.lang | default: "en" %}
+  {% assign ui = site.data.i18n[lang] %}
   <span>
-    {% if include.post.previous %}
-      {% include icon.html icon="fa-solid fa-angle-left" %} Previous post<br>
-      <a href="{{ include.post.previous.url | relative_url }}">
-        {{ include.post.previous.title }}
+    {% if include.previous %}
+      {% include icon.html icon="fa-solid fa-angle-left" %} {{ ui.previous_post }}<br>
+      <a href="{{ include.previous.url | relative_url }}">
+        {{ include.previous.title }}
       </a>
     {% endif %}
   </span>
   <span>
-    {% if include.post.next %}
-      Next post {% include icon.html icon="fa-solid fa-angle-right" %}<br>
-      <a href="{{ include.post.next.url | relative_url }}">
-        {{ include.post.next.title }}
+    {% if include.next %}
+      {{ ui.next_post }} {% include icon.html icon="fa-solid fa-angle-right" %}<br>
+      <a href="{{ include.next.url | relative_url }}">
+        {{ include.next.title }}
       </a>
     {% endif %}
   </span>

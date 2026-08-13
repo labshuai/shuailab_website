@@ -1,3 +1,5 @@
+{% assign lang = page.lang | default: "en" %}
+{% assign ui = site.data.i18n[lang] %}
 {% assign image_link = include.image_link | default: include.link %}
 
 <div
@@ -14,12 +16,12 @@
       href="{{ image_link | relative_url | uri_escape }}"
     {% endif %}
     class="feature-image"
-    aria-label="{% if include.image_link %}View full-size image: {% endif %}{{ include.title | default: "feature link" | regex_strip }}"
+    aria-label="{% if include.image_link %}{{ ui.view_full_size_image }} {% endif %}{{ include.title | default: ui.feature_link | regex_strip }}"
   >
     <img
       src="{{ include.image | relative_url | uri_escape }}"
       loading="lazy"
-      alt="{{ include.title | default: "feature image" | regex_strip }}"
+      alt="{{ include.title | default: ui.feature_image | regex_strip }}"
       {% include fallback.html %}
     >
   </a>

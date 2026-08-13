@@ -1,4 +1,6 @@
 {{ " " }}
+{% assign lang = page.lang | default: "en" %}
+{% assign ui = site.data.i18n[lang] %}
 {% assign image_link = include.image_link | default: include.link %}
 
 <div
@@ -12,12 +14,12 @@
     {% if image_link %}
       href="{{ image_link | relative_url | uri_escape }}"
     {% endif %}
-    aria-label="{% if include.image_link %}View full-size image: {% endif %}{{ include.title | default: "card link" | regex_strip }}"
+    aria-label="{% if include.image_link %}{{ ui.view_full_size_image }} {% endif %}{{ include.title | default: ui.card_link | regex_strip }}"
     class="card-image"
   >
     <img
       src="{{ include.image | relative_url | uri_escape }}"
-      alt="{{ include.title | default: "card image" | regex_strip }}"
+      alt="{{ include.title | default: ui.card_image | regex_strip }}"
       loading="lazy"
       {% include fallback.html %}
     >

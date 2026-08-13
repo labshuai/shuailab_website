@@ -1,4 +1,5 @@
-- title: Inflammation and Immunity in Retinal Vascular Disease and Degeneration
+- key: retinal-vascular-disease
+  title: Inflammation and Immunity in Retinal Vascular Disease and Degeneration
   subtitle: Gene Therapy and Targeted Small-Molecule Therapeutics
   group: featured
   image: images/project.jpg
@@ -16,7 +17,8 @@
     - gene therapy
     - small-molecule therapy
 
-- title: Translational Research in Dry Eye and Corneal Disease
+- key: dry-eye-corneal-disease
+  title: Translational Research in Dry Eye and Corneal Disease
   subtitle: Nanodrug Delivery, AI, and Advanced Biomaterials
   group: featured
   image: images/dry_eye.jpg
@@ -33,7 +35,8 @@
     - artificial intelligence
     - biomaterials
 
-- title: National Natural Science Foundation of China
+- key: nsfc-youth
+  title: National Natural Science Foundation of China
   subtitle: (Youth Project)
   image: images/funders/nsfc-logo.png
   image_fit: contain
@@ -42,7 +45,8 @@
     The Role and Molecular Mechanism of Bone Marrow-derived CXCR2-positive
     Monocytes in Hypertensive Retinal Vascular Injury.
 
-- title: Liaoning Provincial Natural Science Foundation
+- key: liaoning-foundation
+  title: Liaoning Provincial Natural Science Foundation
   image: images/funders/liaoning-science-technology-logo.png
   image_fit: contain
   image_link: images/funders/liaoning-science-technology-logo.png

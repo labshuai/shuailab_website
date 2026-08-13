@@ -5,6 +5,7 @@
 principal-investigator:
   icon: fa-solid fa-microscope
   description: Principal Investigator
+  description_zh: 课题负责人
 
 postdoc:
   icon: fa-solid fa-glasses
@@ -29,6 +30,7 @@ mascot:
 collaborator:
   icon: fa-solid fa-handshake
   description: Collaborator
+  description_zh: 合作研究者
 
 
 # general
@@ -37,43 +39,59 @@ link:
   icon: fa-solid fa-globe
   text: Link
   tooltip: Link
+  text_zh: 链接
+  tooltip_zh: 链接
 
 website:
   icon: fa-solid fa-globe
   text: Website
   tooltip: Website
+  text_zh: 网站
+  tooltip_zh: 网站
 
 external:
   icon: fa-solid fa-up-right-from-square
   text: External Link
   tooltip: External link
+  text_zh: 外部链接
+  tooltip_zh: 外部链接
 
 home-page:
   icon: fa-solid fa-house-user
   text: Home Page
   tooltip: Home page
+  text_zh: 首页
+  tooltip_zh: 首页
 
 email:
   icon: fa-solid fa-envelope
   text: Email
   tooltip: Email
+  text_zh: 邮箱
+  tooltip_zh: 邮箱
   link: mailto:$VALUE
 
 phone:
   icon: fa-solid fa-phone
   text: Phone Number
   tooltip: Phone number
+  text_zh: 电话
+  tooltip_zh: 电话号码
   link: tel:$VALUE
 
 address:
   icon: fa-solid fa-map-location-dot
   text: Address
   tooltip: Address
+  text_zh: 地址
+  tooltip_zh: 地址
 
 search:
   icon: fa-solid fa-magnifying-glass
   text: Search
   tooltip: Search
+  text_zh: 搜索
+  tooltip_zh: 搜索
 
 # social media
 

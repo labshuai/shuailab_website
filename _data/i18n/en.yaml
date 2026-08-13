@@ -1,0 +1,26 @@
+home: Home
+navigation_toggle: Show or hide navigation
+affiliated_institutions: Affiliated institutions
+dalian_medical_university: Dalian Medical University
+second_hospital_dmu: The Second Hospital of Dalian Medical University
+dark_mode: Dark mode
+built_with: Built with
+search_placeholder: Search items on this page
+clear_search: Clear search
+showing_results: Showing {shown} of {total} results
+previous_post: Previous post
+next_post: Next post
+published_on: Originally published on
+updated_on: Last updated on
+author: Author
+show_tag: Show items with the tag “{tag}”
+member_link: Member profile
+member_portrait: Member portrait
+view_full_size_image: "View full-size image:"
+card_link: Project card
+card_image: Project image
+feature_link: Featured item
+feature_image: Featured image
+member_papers_prefix: Search for
+member_papers_suffix: papers on the Research page
+translation_unavailable: Translation unavailable
