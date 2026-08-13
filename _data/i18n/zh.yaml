@@ -13,7 +13,8 @@ next_post: 下一篇
 published_on: 发布于
 updated_on: 更新于
 author: 作者
-show_tag: 显示带有“{tag}”标签的内容
+show_tag_prefix: 显示带有“
+show_tag_suffix: ”标签的内容
 member_link: 成员详情
 member_portrait: 成员照片
 view_full_size_image: 查看原图：

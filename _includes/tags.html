@@ -23,7 +23,7 @@
       <a
         href="{{ link | relative_url }}?search=&quot;tag: {{ tag }}&quot;"
         class="tag"
-        data-tooltip="{{ ui.show_tag | replace: '{tag}', tag | xml_escape }}"
+        data-tooltip="{{ ui.show_tag_prefix }}{{ tag | xml_escape }}{{ ui.show_tag_suffix }}"
       >
         {{ tag }}
       </a>

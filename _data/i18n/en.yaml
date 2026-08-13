@@ -13,7 +13,8 @@ next_post: Next post
 published_on: Originally published on
 updated_on: Last updated on
 author: Author
-show_tag: Show items with the tag “{tag}”
+show_tag_prefix: Show items with the tag “
+show_tag_suffix: ”
 member_link: Member profile
 member_portrait: Member portrait
 view_full_size_image: "View full-size image:"
