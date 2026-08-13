@@ -32,16 +32,17 @@ module Jekyll
       translations = site.data.fetch("members_zh", {})
       members = site.collections.fetch("members").docs
 
-      missing = members.reject { |member| translations.key?(member.slug) }.map(&:slug)
+      missing = members.map { |member| document_slug(member) }.reject { |slug| translations.key?(slug) }
       raise "Missing Chinese member translations: #{missing.join(', ')}" unless missing.empty?
 
       members.each do |member|
-        zh = translations.fetch(member.data.fetch("slug", member.slug), translations.fetch(member.slug, {}))
+        slug = document_slug(member)
+        zh = translations.fetch(slug)
 
         LANGUAGES.each_key do |lang|
           localized_name = lang == "zh" ? zh.fetch("name", member.data["name"]) : member.data["name"]
           content = lang == "zh" ? zh.fetch("bio", member.content) : member.content
-          dir = File.join(lang, "team", member.slug)
+          dir = File.join(lang, "team", slug)
           alternate_lang = lang == "en" ? "zh" : "en"
 
           data = member.data.dup.merge(
@@ -50,17 +51,17 @@ module Jekyll
             "lang_code" => LANGUAGES.fetch(lang).fetch("code"),
             "name" => localized_name,
             "title" => localized_name,
-            "member_slug" => member.slug,
-            "translation_key" => "member-#{member.slug}",
+            "member_slug" => slug,
+            "translation_key" => "member-#{slug}",
             "permalink" => "/#{dir}/",
-            "alternate_url" => "/#{alternate_lang}/team/#{member.slug}/",
+            "alternate_url" => "/#{alternate_lang}/team/#{slug}/",
             "sitemap" => true
           )
 
           site.pages << LocalizedCollectionPage.new(site, dir, data, content)
         end
 
-        site.pages << redirect_page(site, member.url, "/en/team/#{member.slug}/")
+        site.pages << redirect_page(site, member.url, "/en/team/#{slug}/")
       end
     end
 
@@ -68,18 +69,19 @@ module Jekyll
       translations = site.data.fetch("posts_zh", {})
       posts = site.posts.docs.sort_by(&:date)
 
-      missing = posts.reject { |post| translations.key?(post.slug) }.map(&:slug)
+      missing = posts.map { |post| document_slug(post) }.reject { |slug| translations.key?(slug) }
       raise "Missing Chinese post translations: #{missing.join(', ')}" unless missing.empty?
 
       posts.each_with_index do |post, index|
-        zh = translations.fetch(post.slug, {})
+        slug = document_slug(post)
+        zh = translations.fetch(slug)
 
         LANGUAGES.each_key do |lang|
           localized_title = lang == "zh" ? zh.fetch("title", post.data["title"]) : post.data["title"]
           localized_tags = lang == "zh" ? zh.fetch("tags", post.data["tags"]) : post.data["tags"]
           content = lang == "zh" ? zh.fetch("content", post.content) : post.content
           year = post.date.strftime("%Y")
-          dir = File.join(lang, "blog", year, post.slug)
+          dir = File.join(lang, "blog", year, slug)
           alternate_lang = lang == "en" ? "zh" : "en"
 
           previous_post = index.positive? ? posts[index - 1] : nil
@@ -91,10 +93,10 @@ module Jekyll
             "lang_code" => LANGUAGES.fetch(lang).fetch("code"),
             "title" => localized_title,
             "tags" => localized_tags,
-            "post_slug" => post.slug,
-            "translation_key" => "post-#{post.slug}",
+            "post_slug" => slug,
+            "translation_key" => "post-#{slug}",
             "permalink" => "/#{dir}/",
-            "alternate_url" => "/#{alternate_lang}/blog/#{year}/#{post.slug}/",
+            "alternate_url" => "/#{alternate_lang}/blog/#{year}/#{slug}/",
             "localized_previous" => localized_post_reference(previous_post, lang, translations),
             "localized_next" => localized_post_reference(next_post, lang, translations),
             "sitemap" => true
@@ -103,19 +105,24 @@ module Jekyll
           site.pages << LocalizedCollectionPage.new(site, dir, data, content)
         end
 
-        site.pages << redirect_page(site, post.url, "/en/blog/#{post.date.strftime('%Y')}/#{post.slug}/")
+        site.pages << redirect_page(site, post.url, "/en/blog/#{post.date.strftime('%Y')}/#{slug}/")
       end
     end
 
     def localized_post_reference(post, lang, translations)
       return nil unless post
 
-      zh = translations.fetch(post.slug, {})
+      slug = document_slug(post)
+      zh = translations.fetch(slug)
       title = lang == "zh" ? zh.fetch("title", post.data["title"]) : post.data["title"]
       {
         "title" => title,
-        "url" => "/#{lang}/blog/#{post.date.strftime('%Y')}/#{post.slug}/"
+        "url" => "/#{lang}/blog/#{post.date.strftime('%Y')}/#{slug}/"
       }
+    end
+
+    def document_slug(document)
+      document.data.fetch("slug") { document.basename_without_ext }
     end
 
     def redirect_page(site, old_url, destination)
