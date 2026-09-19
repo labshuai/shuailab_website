@@ -19,6 +19,8 @@ nav:
 
 ## 重点论文
 
+{% include citation.html lookup="doi:10.1073/pnas.2616985123" style="rich" %}
+
 {% include citation.html lookup="doi:10.1016/j.ymthe.2026.02.005" style="rich" %}
 
 {% include section.html %}
