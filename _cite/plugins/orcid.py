@@ -33,7 +33,7 @@ def main(entry):
     # list of sources to return
     sources = []
 
-    # filter id by some criteria. return true to accept, false to reject.
+     # filter id by some criteria. return true to accept, false to reject.
     def filter_id(_id):
         # is id of certain "relationship" type
         relationships = ["self", "version-of", "part-of"]
@@ -41,11 +41,14 @@ def main(entry):
             return False
 
         id_type = get_safe(_id, "external-id-type", "")
+        id_value = get_safe(_id, "external-id-value", "")
 
-        # is id of certain type
-        # types = ["doi"]
-        # if id_type not in types:
-        #     return False
+        # exclude specific preprint DOI that has been replaced by a formal publication
+        excluded_dois = {
+            "10.64898/2026.05.13.724735",
+        }
+        if id_type == "doi" and id_value.lower().strip() in excluded_dois:
+            return False
 
         # is id citable by manubot
         if id_type not in manubot_citable:
@@ -74,11 +77,16 @@ def main(entry):
 
         # filter ids by criteria
         ids = list(filter(filter_id, ids))
+
+        # skip this work if no citable id remains after filtering
+        if not ids:
+            continue
+
         # sort ids by criteria
         ids.sort(key=sort_id)
 
         # pick first available id
-        _id = ids[0] if len(ids) > 0 else None
+        _id = ids[0]
 
         # id parts
         id_type = get_safe(_id, "external-id-type", "")
