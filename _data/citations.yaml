@@ -1,5 +1,24 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.1002/advs.77681
+  title: "Self\u2010Propelled HPB@Lip@AB Nanomotors Ameliorate Dry Eye Disease"
+  authors:
+  - Jing Li
+  - Xi Wan
+  - Xinru Su
+  - Zechuan Li
+  - Yue Wang
+  - Ying Wang
+  - Ruofei Li
+  - Huangzhao Wei
+  - Jianbin Zhang
+  - Shuai Wang
+  publisher: Advanced Science
+  date: '2026-09-22'
+  link: https://doi.org/hcnzrg
+  orcid: 0000-0002-9142-6095
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1101/2025.07.09.663952
   title: AAV NRF2 Gene Therapy Preserves Retinal Structure and Function in Rodent
     Models of Oxidative Damage
